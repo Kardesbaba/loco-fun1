@@ -1,0 +1,6269 @@
+{
+  "org/starloco/locos/quest/Quest_Etape.java": [
+    {
+      "class_name": "Quest_Etape",
+      "methods": [
+        "getQuestEtapeList",
+        "getQuestEtapeById",
+        "setQuestEtape",
+        "getId",
+        "getType",
+        "getObjectif",
+        "getQuestData",
+        "setQuestData",
+        "getItemNecessaryList",
+        "getNpc",
+        "getCondition",
+        "getMonsterId",
+        "setMonsterId",
+        "getQua",
+        "setQua",
+        "getValidationType",
+        "setValidationType"
+      ]
+    }
+  ],
+  "org/starloco/locos/quest/Quest.java": [
+    {
+      "class_name": "Quest",
+      "methods": [
+        "getQuestDataList",
+        "getQuestById",
+        "setQuestInList",
+        "isDelete",
+        "getId",
+        "getObjectifList",
+        "getNpc_Tmpl",
+        "getQuestEtapeList",
+        "haveRespectCondition",
+        "getGmQuestDataPacket",
+        "getQuestEtapeCurrent",
+        "getObjectifCurrent",
+        "getObjectifPrevious",
+        "getNextObjectif",
+        "applyQuest",
+        "updateQuestData",
+        "haveFinish",
+        "applyButinOfQuest",
+        "getQuestEtapeByObjectif",
+        "getActions",
+        "setActions",
+        "getId",
+        "getQuest",
+        "isFinish",
+        "setFinish",
+        "getPlayer",
+        "isQuestEtapeIsValidate",
+        "setQuestEtapeValidate",
+        "getQuestEtapeString",
+        "getMonsterKill",
+        "overQuestEtape",
+        "deleteQuestPerso",
+        "getQuestObjectifById",
+        "getQuestObjectifList",
+        "setQuest_Objectif",
+        "getId",
+        "getXp",
+        "getKamas",
+        "getItem",
+        "getAction",
+        "getSizeUnique",
+        "getQuestEtapeList",
+        "setEtape"
+      ]
+    },
+    {
+      "class_name": "QuestPlayer",
+      "methods": [
+        "getId",
+        "getQuest",
+        "isFinish",
+        "setFinish",
+        "getPlayer",
+        "isQuestEtapeIsValidate",
+        "setQuestEtapeValidate",
+        "getQuestEtapeString",
+        "getMonsterKill",
+        "overQuestEtape",
+        "deleteQuestPerso"
+      ]
+    },
+    {
+      "class_name": "Quest_Objectif",
+      "methods": [
+        "getQuestObjectifById",
+        "getQuestObjectifList",
+        "setQuest_Objectif",
+        "getId",
+        "getXp",
+        "getKamas",
+        "getItem",
+        "getAction",
+        "getSizeUnique",
+        "getQuestEtapeList",
+        "setEtape"
+      ]
+    }
+  ],
+  "org/starloco/locos/hdv/HdvEntry.java": [
+    {
+      "class_name": "HdvEntry",
+      "methods": [
+        "getId",
+        "setId",
+        "getHdvId",
+        "setHdvId",
+        "getLineId",
+        "setLineId",
+        "getOwner",
+        "getPrice",
+        "getAmount",
+        "getGameObject",
+        "parseToEL",
+        "parseToEmK",
+        "compareTo"
+      ]
+    }
+  ],
+  "org/starloco/locos/hdv/HdvLine.java": [
+    {
+      "class_name": "HdvLine",
+      "methods": [
+        "getLineId",
+        "getTemplateId",
+        "getEntries",
+        "getStrStats",
+        "haveSameStats",
+        "sort",
+        "addEntry",
+        "delEntry",
+        "doYouHave",
+        "getFirsts",
+        "getAll",
+        "isEmpty",
+        "parseToEHl",
+        "parseToEHm"
+      ]
+    }
+  ],
+  "org/starloco/locos/hdv/Hdv.java": [
+    {
+      "class_name": "Hdv",
+      "methods": [
+        "getHdvId",
+        "getTaxe",
+        "getSellTime",
+        "getMaxAccountItem",
+        "getStrCategory",
+        "getLvlMax",
+        "getCategorys",
+        "haveCategory",
+        "getLine",
+        "addEntry",
+        "delEntry",
+        "getAllEntry",
+        "buyItem",
+        "parseToEHl",
+        "parseTemplate",
+        "parseTaxe"
+      ]
+    }
+  ],
+  "org/starloco/locos/hdv/HdvCategory.java": [
+    {
+      "class_name": "HdvCategory",
+      "methods": [
+        "getCategoryId",
+        "setCategoryId",
+        "getTemplates",
+        "getTemplate",
+        "addTemplate",
+        "delTemplate",
+        "addEntry",
+        "delEntry",
+        "getAllEntry",
+        "parseTemplate"
+      ]
+    }
+  ],
+  "org/starloco/locos/hdv/HdvTemplate.java": [
+    {
+      "class_name": "HdvTemplate",
+      "methods": [
+        "getTemplateId",
+        "getLines",
+        "getLine",
+        "addEntry",
+        "delEntry",
+        "getAllEntry",
+        "isEmpty",
+        "parseToEHl"
+      ]
+    }
+  ],
+  "org/starloco/locos/object/ObjectSet.java": [
+    {
+      "class_name": "ObjectSet",
+      "methods": [
+        "getId",
+        "getBonusStatByItemNumb",
+        "getItemTemplates"
+      ]
+    }
+  ],
+  "org/starloco/locos/object/ObjectAction.java": [
+    {
+      "class_name": "ObjectAction",
+      "methods": [
+        "apply",
+        "haveEffect"
+      ]
+    }
+  ],
+  "org/starloco/locos/object/ObjectTemplate.java": [
+    {
+      "class_name": "ObjectTemplate",
+      "methods": [
+        "toString",
+        "setInfos",
+        "getMoney",
+        "setMoney",
+        "getNewPrice",
+        "setNewPrice",
+        "initStrTemplate",
+        "getId",
+        "setId",
+        "getStrTemplate",
+        "setStrTemplate",
+        "getName",
+        "setName",
+        "getType",
+        "setType",
+        "getLevel",
+        "setLevel",
+        "getPod",
+        "setPod",
+        "getPrice",
+        "setPrice",
+        "getPanoId",
+        "setPanoId",
+        "getConditions",
+        "setConditions",
+        "getPACost",
+        "setPACost",
+        "getPOmin",
+        "setPOmin",
+        "getPOmax",
+        "setPOmax",
+        "getTauxCC",
+        "setTauxCC",
+        "getTauxEC",
+        "setTauxEC",
+        "getBonusCC",
+        "setBonusCC",
+        "isTwoHanded",
+        "setTwoHanded",
+        "getAvgPrice",
+        "getSold",
+        "getPoints",
+        "addAction",
+        "getOnUseActions",
+        "createNewCertificat",
+        "createNewFamilier",
+        "createNewBenediction",
+        "createNewMalediction",
+        "createNewRoleplayBuff",
+        "createNewCandy",
+        "createNewFollowPnj",
+        "createNewItem",
+        "getStringResistance",
+        "generateNewStatsFromTemplate",
+        "getEffectTemplate",
+        "parseItemTemplateStats",
+        "applyAction",
+        "newSold",
+        "createNewTonique",
+        "createNewToniqueEquilibrage"
+      ]
+    }
+  ],
+  "org/starloco/locos/object/GameObject.java": [
+    {
+      "class_name": "GameObject",
+      "methods": [
+        "getStatsClass",
+        "getCloneObjet",
+        "setId",
+        "getPuit",
+        "setPuit",
+        "getObvijevanPos",
+        "setObvijevanPos",
+        "getObvijevanLook",
+        "setObvijevanLook",
+        "setModification",
+        "parseStringToStats",
+        "addTxtStat",
+        "removeTxtStat",
+        "addOneStats",
+        "getTraquedName",
+        "getStats",
+        "setStats",
+        "getQuantity",
+        "setQuantity",
+        "getPosition",
+        "setPosition",
+        "getTemplate",
+        "setTemplate",
+        "getGuid",
+        "getSoulStat",
+        "getTxtStat",
+        "setExchangeIn",
+        "setMountStats",
+        "attachToPlayer",
+        "isAttach",
+        "parseItem",
+        "parseStatsString",
+        "parseStatsStringSansUserObvi",
+        "parseToSave",
+        "obvijevanOCO_Packet",
+        "obvijevanNourir",
+        "obvijevanChangeStat",
+        "removeAllObvijevanStats",
+        "removeAll_ExepteObvijevanStats",
+        "getObvijevanStatsOnly",
+        "generateNewStatsFromTemplate",
+        "getEffects",
+        "getCritEffects",
+        "clearStats",
+        "refreshStatsObjet",
+        "getResistance",
+        "getResistanceMax",
+        "getRandomValue",
+        "parseFMStatsString",
+        "parseFMStatsString",
+        "parseStringStatsEC_FM",
+        "isOverFm",
+        "viewActualStatsItem",
+        "setNewStats",
+        "getOATemplateApparence",
+        "isMimibiote",
+        "setMimibioteApparence",
+        "getSortStats"
+      ]
+    }
+  ],
+  "org/starloco/locos/object/entity/Fragment.java": [
+    {
+      "class_name": "Fragment",
+      "methods": [
+        "getRunes",
+        "addRune",
+        "search"
+      ]
+    }
+  ],
+  "org/starloco/locos/object/entity/SoulStone.java": [
+    {
+      "class_name": "SoulStone",
+      "methods": [
+        "parseStringToStats",
+        "parseStatsString",
+        "parseGroupData",
+        "parseToSave",
+        "isInArenaMap"
+      ]
+    }
+  ],
+  "org/starloco/locos/common/CryptManager.java": [
+    {
+      "class_name": "CryptManager",
+      "methods": [
+        "cellID_To_Code",
+        "cellCode_To_ID",
+        "getIntByHashedValue",
+        "getHashedValueByInt",
+        "parseStartCell",
+        "cellWalkable",
+        "prepareMapDataKey",
+        "unescape",
+        "checksumKey",
+        "decryptMapData",
+        "decypherData",
+        "mapCrypted",
+        "decompileMapData",
+        "cryptMessage",
+        "decryptMessage",
+        "prepareKey",
+        "checksum",
+        "decimalToHexadecimal",
+        "encode",
+        "toHex",
+        "isUnsafe"
+      ]
+    }
+  ],
+  "org/starloco/locos/common/Formulas.java": [
+    {
+      "class_name": "Formulas",
+      "methods": [
+        "countCell",
+        "getRandomValue",
+        "getMinJet",
+        "getMaxJet",
+        "getRandomJet",
+        "getRandomJet",
+        "getMiddleJet",
+        "getTacleChance",
+        "calculFinalHeal",
+        "calculFinalHealCac",
+        "calculXpWinCraft",
+        "calculXpWinFm",
+        "calculXpLooseCraft",
+        "calculHonorWin",
+        "calculFinalDommage",
+        "calculFinalDommagee",
+        "calculZaapCost",
+        "getArmorResist",
+        "getPointsLost",
+        "getGuildXpWin",
+        "getMountXpWin",
+        "getKamasWin",
+        "getKamasWinPerco",
+        "decompPierreAme",
+        "totalCaptChance",
+        "spellCost",
+        "getLoosEnergy",
+        "totalAppriChance",
+        "getCouleur",
+        "calculEnergieLooseForToogleMount",
+        "getLvlDopeuls",
+        "calculChanceByElement",
+        "chanceFM",
+        "convertToDate",
+        "getXpStalk",
+        "translateMsg",
+        "isCriticalFail",
+        "sortStatsByOrder",
+        "shuffleCharArray",
+        "getRandomsInt"
+      ]
+    }
+  ],
+  "org/starloco/locos/common/ConditionParser.java": [
+    {
+      "class_name": "ConditionParser",
+      "methods": [
+        "validConditions",
+        "haveMorph",
+        "haveMetier",
+        "havePj",
+        "haveQa",
+        "haveQEt",
+        "haveTiT",
+        "haveTi",
+        "haveCe",
+        "haveQE",
+        "haveQT",
+        "haveNPC",
+        "haveRO",
+        "haveRA",
+        "havePO",
+        "canPN",
+        "canPJ",
+        "haveJOB",
+        "stackIfSimilar"
+      ]
+    }
+  ],
+  "org/starloco/locos/common/SocketManager.java": [
+    {
+      "class_name": "SocketManager",
+      "methods": [
+        "send",
+        "send",
+        "GAME_SEND_UPDATE_ITEM",
+        "MULTI_SEND_Af_PACKET",
+        "GAME_SEND_ATTRIBUTE_FAILED",
+        "GAME_SEND_AV0",
+        "GAME_SEND_PERSO_LIST",
+        "GAME_SEND_NAME_ALREADY_EXIST",
+        "GAME_SEND_CREATE_PERSO_FULL",
+        "GAME_SEND_CREATE_OK",
+        "GAME_SEND_DELETE_PERSO_FAILED",
+        "GAME_SEND_CREATE_FAILED",
+        "GAME_SEND_PERSO_SELECTION_FAILED",
+        "GAME_SEND_STATS_PACKET",
+        "GAME_SEND_Rx_PACKET",
+        "GAME_SEND_Rn_PACKET",
+        "GAME_SEND_UPDATE_OBJECT_DISPLAY_PACKET",
+        "GAME_SEND_xC_PAQUET",
+        "GAME_SEND_Re_PACKET",
+        "GAME_SEND_ASK",
+        "GAME_SEND_ALIGNEMENT",
+        "GAME_SEND_ADD_CANAL",
+        "GAME_SEND_ZONE_ALLIGN_STATUT",
+        "GAME_SEND_RESTRICTIONS",
+        "GAME_SEND_Ow_PACKET",
+        "GAME_SEND_OT_PACKET",
+        "GAME_SEND_SEE_FRIEND_CONNEXION",
+        "GAME_SEND_GAME_CREATE",
+        "GAME_SEND_SERVER_HOUR",
+        "GAME_SEND_MAPDATA",
+        "GAME_SEND_GDK_PACKET",
+        "GAME_SEND_MAP_MOBS_GMS_PACKETS",
+        "GAME_SEND_MAP_OBJECTS_GDS_PACKETS",
+        "GAME_SEND_MAP_NPCS_GMS_PACKETS",
+        "GAME_SEND_MAP_NPCS_QUEST_UPDATE_SPRITE_PACKETS",
+        "GAME_SEND_MAP_PERCO_GMS_PACKETS",
+        "GAME_SEND_ERASE_ON_MAP_TO_MAP",
+        "GAME_SEND_ON_FIGHTER_KICK",
+        "GAME_SEND_ALTER_FIGHTER_MOUNT",
+        "GAME_SEND_ADD_PLAYER_TO_MAP",
+        "GAME_SEND_DUEL_Y_AWAY",
+        "GAME_SEND_DUEL_E_AWAY",
+        "GAME_SEND_MAP_NEW_DUEL_TO_MAP",
+        "GAME_SEND_CANCEL_DUEL_TO_MAP",
+        "GAME_SEND_MAP_START_DUEL_TO_MAP",
+        "GAME_SEND_MAP_FIGHT_COUNT",
+        "GAME_SEND_FIGHT_GJK_PACKET_TO_FIGHT",
+        "GAME_SEND_FIGHT_PLACES_PACKET_TO_FIGHT",
+        "GAME_SEND_MAP_FIGHT_COUNT_TO_MAP",
+        "GAME_SEND_GAME_ADDFLAG_PACKET_TO_MAP",
+        "GAME_SEND_GAME_ADDFLAG_PACKET_TO_PLAYER",
+        "GAME_SEND_GAME_REMFLAG_PACKET_TO_MAP",
+        "GAME_SEND_ADD_IN_TEAM_PACKET_TO_MAP",
+        "GAME_SEND_ADD_IN_TEAM_PACKET_TO_PLAYER",
+        "GAME_SEND_REMOVE_IN_TEAM_PACKET_TO_MAP",
+        "GAME_SEND_MAP_MOBS_GMS_PACKETS_TO_MAP",
+        "GAME_SEND_MAP_MOBS_GMS_PACKETS_TO_MAP",
+        "GAME_SEND_MAP_MOBS_GM_PACKET",
+        "GAME_SEND_MAP_GMS_PACKETS",
+        "GAME_SEND_ON_EQUIP_ITEM",
+        "GAME_SEND_ON_EQUIP_ITEM_FIGHT",
+        "GAME_SEND_FIGHT_CHANGE_PLACE_PACKET_TO_FIGHT",
+        "GAME_SEND_Ew_PACKET",
+        "GAME_SEND_EL_MOUNT_PACKET",
+        "GAME_SEND_GM_MOUNT_TO_MAP",
+        "GAME_SEND_GDO_OBJECT_TO_MAP",
+        "GAME_SEND_GM_MOUNT",
+        "GAME_SEND_Ef_MOUNT_TO_ETABLE",
+        "GAME_SEND_GA_ACTION_TO_MAP",
+        "SEND_GDO_PUT_OBJECT_MOUNT",
+        "SEND_GDE_FRAME_OBJECT_EXTERNAL",
+        "SEND_GDE_FRAME_OBJECT_EXTERNAL",
+        "GAME_SEND_FIGHT_CHANGE_OPTION_PACKET_TO_MAP",
+        "GAME_SEND_FIGHT_PLAYER_READY_TO_FIGHT",
+        "GAME_SEND_GJK_PACKET",
+        "GAME_SEND_FIGHT_PLACES_PACKET",
+        "GAME_SEND_Im_PACKET_TO_ALL",
+        "GAME_SEND_Im_PACKET",
+        "GAME_SEND_ILS_PACKET",
+        "GAME_SEND_ILF_PACKET",
+        "GAME_SEND_Im_PACKET_TO_MAP",
+        "GAME_SEND_Im_PACKET_TO_PLAYER",
+        "GAME_SEND_eUK_PACKET_TO_MAP",
+        "GAME_SEND_Im_PACKET_TO_FIGHT",
+        "GAME_SEND_MESSAGE",
+        "GAME_SEND_MESSAGE",
+        "GAME_SEND_MESSAGE_TO_MAP",
+        "GAME_SEND_GA903_ERROR_PACKET",
+        "GAME_SEND_GIC_PACKETS_TO_FIGHT",
+        "GAME_SEND_GIC_PACKET_TO_FIGHT",
+        "GAME_SEND_GIC_PACKETS",
+        "GAME_SEND_GS_PACKET_TO_FIGHT",
+        "GAME_SEND_GS_PACKET",
+        "GAME_SEND_GTL_PACKET_TO_FIGHT",
+        "GAME_SEND_GTL_PACKET",
+        "GAME_SEND_GTM_PACKET_TO_FIGHT",
+        "GAME_SEND_GTM_PACKET",
+        "GAME_SEND_GAMETURNSTART_PACKET_TO_FIGHT",
+        "GAME_SEND_GAMETURNSTART_PACKET",
+        "GAME_SEND_GV_PACKET",
+        "GAME_SEND_PONG",
+        "GAME_SEND_QPONG",
+        "GAME_SEND_GAS_PACKET_TO_FIGHT",
+        "GAME_SEND_GA_PACKET_TO_FIGHT",
+        "GAME_SEND_GA_PACKET",
+        "SEND_SB_SPELL_BOOST",
+        "GAME_SEND_GA_PACKET",
+        "GAME_SEND_GA_PACKET_TO_FIGHT",
+        "GAME_SEND_GAMEACTION_TO_FIGHT",
+        "GAME_SEND_GAF_PACKET_TO_FIGHT",
+        "GAME_SEND_BN",
+        "GAME_SEND_BN",
+        "GAME_SEND_GAMETURNSTOP_PACKET_TO_FIGHT",
+        "GAME_SEND_GTR_PACKET_TO_FIGHT",
+        "GAME_SEND_EMOTICONE_TO_MAP",
+        "GAME_SEND_SPELL_UPGRADE_FAILED",
+        "GAME_SEND_SPELL_UPGRADE_SUCCED",
+        "GAME_SEND_SPELL_LIST",
+        "GAME_SEND_FIGHT_PLAYER_DIE_TO_FIGHT",
+        "GAME_SEND_FIGHT_GIE_TO_FIGHT",
+        "GAME_SEND_MAP_FIGHT_GMS_PACKETS_TO_FIGHT",
+        "GAME_SEND_MAP_FIGHT_GMS_PACKETS",
+        "GAME_SEND_FIGHT_PLAYER_JOIN",
+        "GAME_SEND_cMK_PACKET",
+        "GAME_SEND_FIGHT_LIST_PACKET",
+        "GAME_SEND_cMK_PACKET_TO_MAP",
+        "GAME_SEND_cMK_PACKET_TO_GUILD",
+        "GAME_SEND_cMK_PACKET_TO_ALL",
+        "GAME_SEND_cMK_PACKET_TO_ALIGN",
+        "GAME_SEND_cMK_PACKET_TO_ADMIN",
+        "GAME_SEND_cMK_PACKET_TO_FIGHT",
+        "GAME_SEND_GDZ_PACKET_TO_FIGHT",
+        "GAME_SEND_GDC_PACKET_TO_FIGHT",
+        "GAME_SEND_GA2_PACKET",
+        "GAME_SEND_CHAT_ERROR_PACKET",
+        "GAME_SEND_eD_PACKET_TO_MAP",
+        "GAME_SEND_ECK_PACKET",
+        "GAME_SEND_ECK_PACKET",
+        "GAME_SEND_ITEM_VENDOR_LIST_PACKET",
+        "GAME_SEND_ITEM_LIST_PACKET_PERCEPTEUR",
+        "GAME_SEND_ITEM_LIST_PACKET_SELLER",
+        "GAME_SEND_EV_PACKET",
+        "GAME_SEND_DCK_PACKET",
+        "GAME_SEND_QUESTION_PACKET",
+        "GAME_SEND_END_DIALOG_PACKET",
+        "GAME_SEND_CONSOLE_MESSAGE_PACKET",
+        "GAME_SEND_BUY_ERROR_PACKET",
+        "GAME_SEND_SELL_ERROR_PACKET",
+        "GAME_SEND_BUY_OK_PACKET",
+        "GAME_SEND_OBJECT_QUANTITY_PACKET",
+        "GAME_SEND_OAKO_PACKET",
+        "GAME_SEND_ESK_PACKEt",
+        "GAME_SEND_REMOVE_ITEM_PACKET",
+        "GAME_SEND_DELETE_OBJECT_FAILED_PACKET",
+        "GAME_SEND_OBJET_MOVE_PACKET",
+        "GAME_SEND_DELETE_STATS_ITEM_FM",
+        "GAME_SEND_EMOTICONE_TO_FIGHT",
+        "GAME_SEND_OAEL_PACKET",
+        "GAME_SEND_NEW_LVL_PACKET",
+        "GAME_SEND_MESSAGE_TO_ALL",
+        "GAME_SEND_EXCHANGE_REQUEST_OK",
+        "GAME_SEND_EXCHANGE_REQUEST_ERROR",
+        "GAME_SEND_EXCHANGE_CONFIRM_OK",
+        "GAME_SEND_EXCHANGE_MOVE_OK",
+        "GAME_SEND_EXCHANGE_MOVE_OK_FM",
+        "GAME_SEND_EXCHANGE_OTHER_MOVE_OK",
+        "GAME_SEND_EXCHANGE_OTHER_MOVE_OK_FM",
+        "GAME_SEND_EXCHANGE_OK",
+        "GAME_SEND_EXCHANGE_OK",
+        "GAME_SEND_EXCHANGE_VALID",
+        "GAME_SEND_GROUP_INVITATION_ERROR",
+        "GAME_SEND_GROUP_INVITATION",
+        "GAME_SEND_GROUP_CREATE",
+        "GAME_SEND_PL_PACKET",
+        "GAME_SEND_PR_PACKET",
+        "GAME_SEND_PV_PACKET",
+        "GAME_SEND_ALL_PM_ADD_PACKET",
+        "GAME_SEND_PM_ADD_PACKET_TO_GROUP",
+        "GAME_SEND_PM_MOD_PACKET_TO_GROUP",
+        "GAME_SEND_PM_DEL_PACKET_TO_GROUP",
+        "GAME_SEND_cMK_PACKET_TO_GROUP",
+        "GAME_SEND_FIGHT_DETAILS",
+        "GAME_SEND_IQ_PACKET",
+        "GAME_SEND_JN_PACKET",
+        "GAME_SEND_GDF_PACKET_TO_MAP",
+        "GAME_SEND_GDF_PACKET_TO_FIGHT",
+        "GAME_SEND_GA_PACKET_TO_MAP",
+        "GAME_SEND_EL_BANK_PACKET",
+        "GAME_SEND_EL_TRUNK_PACKET",
+        "GAME_SEND_JX_PACKET",
+        "GAME_SEND_JO_PACKET",
+        "GAME_SEND_JO_PACKET",
+        "GAME_SEND_JS_PACKET",
+        "GAME_SEND_EsK_PACKET",
+        "GAME_SEND_FIGHT_SHOW_CASE",
+        "GAME_SEND_Ea_PACKET",
+        "GAME_SEND_EA_PACKET",
+        "GAME_SEND_Ec_PACKET",
+        "GAME_SEND_Em_PACKET",
+        "GAME_SEND_IO_PACKET_TO_MAP",
+        "GAME_SEND_FRIENDLIST_PACKET",
+        "GAME_SEND_FRIEND_ONLINE",
+        "GAME_SEND_FA_PACKET",
+        "GAME_SEND_FD_PACKET",
+        "GAME_SEND_Rp_PACKET",
+        "GAME_SEND_OS_PACKET",
+        "GAME_SEND_MOUNT_DESCRIPTION_PACKET",
+        "GAME_SEND_Rr_PACKET",
+        "GAME_SEND_ALTER_GM_PACKET",
+        "GAME_SEND_Ee_PACKET",
+        "GAME_SEND_Ee_PACKET_WAIT",
+        "GAME_SEND_cC_PACKET",
+        "GAME_SEND_ADD_NPC_TO_MAP",
+        "GAME_SEND_ADD_NPC",
+        "GAME_SEND_ADD_PERCO_TO_MAP",
+        "GAME_SEND_GDO_PACKET_TO_MAP",
+        "GAME_SEND_GDO_PACKET",
+        "GAME_SEND_ZC_PACKET",
+        "GAME_SEND_GIP_PACKET",
+        "GAME_SEND_gn_PACKET",
+        "GAME_SEND_gC_PACKET",
+        "GAME_SEND_gV_PACKET",
+        "GAME_SEND_gIM_PACKET",
+        "GAME_SEND_gIB_PACKET",
+        "GAME_SEND_gIH_PACKET",
+        "GAME_SEND_gS_PACKET",
+        "GAME_SEND_gJ_PACKET",
+        "GAME_SEND_gK_PACKET",
+        "GAME_SEND_gIG_PACKET",
+        "REALM_SEND_MESSAGE",
+        "GAME_SEND_WC_PACKET",
+        "GAME_SEND_WV_PACKET",
+        "GAME_SEND_ZAAPI_PACKET",
+        "GAME_SEND_CLOSE_ZAAPI_PACKET",
+        "GAME_SEND_WUE_PACKET",
+        "GAME_SEND_EMOTE_LIST",
+        "GAME_SEND_NO_EMOTE",
+        "REALM_SEND_TOO_MANY_PLAYER_ERROR",
+        "REALM_SEND_REQUIRED_APK",
+        "GAME_SEND_ADD_ENEMY",
+        "GAME_SEND_iAEA_PACKET",
+        "GAME_SEND_ENEMY_LIST",
+        "GAME_SEND_iD_COMMANDE",
+        "GAME_SEND_BWK",
+        "GAME_SEND_KODE",
+        "GAME_SEND_hOUSE",
+        "GAME_SEND_FORGETSPELL_INTERFACE",
+        "GAME_SEND_R_PACKET",
+        "GAME_SEND_gIF_PACKET",
+        "GAME_SEND_gITM_PACKET",
+        "GAME_SEND_gITp_PACKET",
+        "GAME_SEND_gITP_PACKET",
+        "GAME_SEND_IH_PACKET",
+        "GAME_SEND_FLAG_PACKET",
+        "GAME_SEND_FLAG_PACKET",
+        "GAME_SEND_DELETE_FLAG_PACKET",
+        "GAME_SEND_gT_PACKET",
+        "GAME_SEND_GUILDHOUSE_PACKET",
+        "GAME_SEND_GUILDENCLO_PACKET",
+        "GAME_SEND_EHm_PACKET",
+        "GAME_SEND_EHM_PACKET",
+        "GAME_SEND_EHP_PACKET",
+        "GAME_SEND_EHl",
+        "GAME_SEND_EHL_PACKET",
+        "GAME_SEND_EHL_PACKET",
+        "GAME_SEND_HDVITEM_SELLING",
+        "GAME_SEND_WEDDING",
+        "GAME_SEND_PF",
+        "GAME_SEND_MERCHANT_LIST",
+        "GAME_SEND_PACKET_TO_FIGHT",
+        "GAME_SEND_FIGHT_GJK_PACKET_TO_FIGHT",
+        "GAME_SEND_GJK_PACKET",
+        "GAME_SEND_cMK_PACKET_INCARNAM_CHAT",
+        "GAME_SEND_Ag_PACKET",
+        "SEND_Ej_LIVRE",
+        "SEND_EW_METIER_PUBLIC",
+        "SEND_EJ_LIVRE",
+        "SEND_GDF_PERSO",
+        "SEND_EMK_MOVE_ITEM",
+        "SEND_OR_DELETE_ITEM",
+        "GAME_SEND_CHALLENGE_FIGHT",
+        "GAME_SEND_CHALLENGE_PERSO",
+        "GAME_SEND_Im_PACKET_TO_CHALLENGE",
+        "GAME_SEND_Im_PACKET_TO_CHALLENGE_PERSO",
+        "GAME_SEND_MESSAGE_SERVER",
+        "GAME_SEND_WELCOME",
+        "GAME_SEND_Eq_PACKET",
+        "GAME_SEND_INFO_HIGHLIGHT_PACKET",
+        "GAME_SEND_GA_CLEAR_PACKET_TO_FIGHT",
+        "SEND_MESSAGE_DECO",
+        "SEND_MESSAGE_DECO_ALL",
+        "SEND_gA_PERCEPTEUR",
+        "SEND_Im1223_ALL",
+        "GAME_SEND_PERCO_INFOS_PACKET",
+        "SEND_Wp_MENU_Prisme",
+        "SEND_Ww_CLOSE_Prisme",
+        "GAME_SEND_am_ALIGN_PACKET_TO_SUBAREA",
+        "SEND_CB_BONUS_CONQUETE",
+        "SEND_Cb_BALANCE_CONQUETE",
+        "SEND_GM_PRISME_TO_MAP",
+        "GAME_SEND_PRISME_TO_MAP",
+        "SEND_CP_INFO_DEFENSEURS_PRISME",
+        "SEND_Cp_INFO_ATTAQUANT_PRISME",
+        "SEND_CIV_CLOSE_INFO_CONQUETE",
+        "SEND_CW_INFO_WORLD_CONQUETE",
+        "SEND_CIJ_INFO_JOIN_PRISME",
+        "GAME_SEND_aM_ALIGN_PACKET_TO_AREA",
+        "SEND_GA_ACTION_TO_Map",
+        "SEND_CS_SURVIVRE_MESSAGE_PRISME",
+        "SEND_CD_MORT_MESSAGE_PRISME",
+        "SEND_CA_ATTAQUE_MESSAGE_PRISME",
+        "GAME_SEND_ACTION_TO_DOOR",
+        "GAME_SEND_ACTION_TO_DOOR",
+        "GAME_UPDATE_CELL",
+        "GAME_UPDATE_CELL",
+        "GAME_SEND_ACTION_TO_DOOR_FAST",
+        "GAME_UPDATE_CELL_FAST",
+        "GAME_SEND_ACTION_TO_DOOR_PEUR",
+        "GAME_SEND_ACTION_TO_DOOR_FAST_PEUR",
+        "GAME_SEND_ALE_PACKET",
+        "QuestList",
+        "QuestGep",
+        "sendPacketToMap",
+        "sendPacketToMapGM",
+        "sendTacticalTruePacket",
+        "sendTacticalFalsePacket",
+        "GAME_SEND_UI_MIMIBIOTE",
+        "GAME_SEND_wr",
+        "GAME_SEND_ADD_SHORTCUT",
+        "GAME_SEND_REMOVE_SHORTCUT"
+      ]
+    }
+  ],
+  "org/starloco/locos/common/PathFinding.java": [
+    {
+      "class_name": "PathFinding",
+      "methods": [
+        "isValidPath",
+        "getEnemyFighterArround",
+        "isNextTo",
+        "ValidSinglePath",
+        "getAllCaseIdAllDirrection",
+        "GetCaseIDFromDirrection",
+        "getDistanceBetween",
+        "getEnemyAround",
+        "getEnemiesAround",
+        "newCaseAfterPush",
+        "newCaseAfterPush",
+        "getDistanceBetweenTwoCase",
+        "getOpositeDirection",
+        "getNearenemycontremur",
+        "getCaseBetweenEnemy",
+        "getAvailableCellArround",
+        "getNearestligneGA",
+        "getNearenemycontremur2",
+        "getNearestCellDiagGA",
+        "casesAreInSameLine",
+        "casesAreInSameLine",
+        "getCiblesByZoneByWeapon",
+        "get1StFighterOnCellFromDirection",
+        "getFighter2CellBefore",
+        "getDirBetweenTwoCase",
+        "canWalkToThisCell",
+        "getCellListFromAreaString",
+        "getCellListFromAreaString2",
+        "getCellXCoord",
+        "getCellYCoord",
+        "getNearestCellAround",
+        "getNearestCellAroundGA",
+        "getShortestPathBetween",
+        "getShortestStringPathBetween",
+        "checkLoS",
+        "checkLoS",
+        "getLoSBotheringIDCases",
+        "getLoSBotheringCasesInDiagonal",
+        "getFightersAround",
+        "getDirEntreDosCeldas",
+        "getCellArroundByDir",
+        "checkIfCanPushEntity",
+        "haveFighterOnThisCell",
+        "getCaseIDFromDirrection",
+        "cellArroundCaseIDisOccuped",
+        "getCellsByDir",
+        "getEnnemyInLine",
+        "isCACwithEnnemy",
+        "isCACwithEnnemy",
+        "getcasebetwenenemie",
+        "getListCaseToEnnemy",
+        "getListCaseFromFighter",
+        "haveFighterOnThisCell",
+        "getNearestCellAroundKrala",
+        "getRandomcelllignepomax",
+        "getNearestligneenemy"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/Database.java": [
+    {
+      "class_name": "Database",
+      "methods": [
+        "launchDatabase",
+        "getDynamics",
+        "getStatics",
+        "tryConnection"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/AbstractDAO.java": [
+    {
+      "class_name": "AbstractDAO",
+      "methods": [
+        "execute",
+        "execute",
+        "getData",
+        "getPreparedStatement",
+        "close",
+        "close",
+        "close",
+        "close",
+        "close",
+        "sendError"
+      ]
+    },
+    {
+      "class_name": "Result",
+      "methods": []
+    }
+  ],
+  "org/starloco/locos/database/dynamics/DynamicsDatabase.java": [
+    {
+      "class_name": "DynamicsDatabase",
+      "methods": [
+        "initializeData",
+        "initializeConnection",
+        "getDataSource",
+        "getGangsterData",
+        "getBankData",
+        "getGuildMemberData",
+        "getHdvObjectData",
+        "getCollectorData",
+        "getPrismData",
+        "getAreaData",
+        "getAnimationData",
+        "getChallengeData",
+        "getTrunkData",
+        "getCraftData",
+        "getDungeonData",
+        "getDropData",
+        "getEndFightActionData",
+        "getExperienceData",
+        "getExtraMonsterData",
+        "getFullMorphData",
+        "getGiftData",
+        "getHdvData",
+        "getHouseData",
+        "getInteractiveDoorData",
+        "getInteractiveObjectData",
+        "getObjectTemplateData",
+        "getObjectSetData",
+        "getJobData",
+        "getMapData",
+        "getMonsterData",
+        "getMountParkData",
+        "getNpcQuestionData",
+        "getNpcAnswerData",
+        "getNpcTemplateData",
+        "getNpcData",
+        "getObjectActionData",
+        "getPetTemplateData",
+        "getQuestData",
+        "getQuestStepData",
+        "getQuestObjectiveData",
+        "getRuneData",
+        "getScriptedCellData",
+        "getSubAreaData",
+        "getSpellData",
+        "getTutorialData",
+        "getZaapData",
+        "getZaapiData",
+        "getHeroicMobsGroups",
+        "getPlayerCommandData",
+        "getMountData",
+        "getObjectData",
+        "getPetData",
+        "getWorldEntityData",
+        "getGuildData",
+        "getQuestPlayerData",
+        "getGladiatroolSpellsData",
+        "getQuickSetsData",
+        "getShortcutsData"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/NpcData.java": [
+    {
+      "class_name": "NpcData",
+      "methods": [
+        "load",
+        "update",
+        "load",
+        "delete",
+        "addOnMap"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/QuestPlayerData.java": [
+    {
+      "class_name": "QuestPlayerData",
+      "methods": [
+        "load",
+        "update",
+        "update",
+        "loadPerso",
+        "delete",
+        "add",
+        "getNextId"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/MountData.java": [
+    {
+      "class_name": "MountData",
+      "methods": [
+        "load",
+        "update",
+        "delete",
+        "delete",
+        "add"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/ShortcutsData.java": [
+    {
+      "class_name": "ShortcutsData",
+      "methods": [
+        "load",
+        "updateObject",
+        "updatePosition",
+        "delete",
+        "add",
+        "load",
+        "update"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/PlayerCommandData.java": [
+    {
+      "class_name": "PlayerCommandData",
+      "methods": [
+        "load",
+        "update"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/WorldEntityData.java": [
+    {
+      "class_name": "WorldEntityData",
+      "methods": [
+        "load",
+        "update",
+        "getNextMountId",
+        "getNextObjectId",
+        "getNextGuidId",
+        "getNextQuestId",
+        "getNextGladiatroolSpellsId"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/SpellData.java": [
+    {
+      "class_name": "SpellData",
+      "methods": [
+        "load",
+        "update",
+        "load",
+        "parseSortStats"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/ObjectSetData.java": [
+    {
+      "class_name": "ObjectSetData",
+      "methods": [
+        "load",
+        "update",
+        "load"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/NpcTemplateData.java": [
+    {
+      "class_name": "NpcTemplateData",
+      "methods": [
+        "load",
+        "update",
+        "load",
+        "loadQuest",
+        "reload"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/HouseData.java": [
+    {
+      "class_name": "HouseData",
+      "methods": [
+        "load",
+        "update",
+        "update",
+        "load",
+        "buy",
+        "sell",
+        "updateCode",
+        "updateGuild",
+        "removeGuild"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/CollectorData.java": [
+    {
+      "class_name": "CollectorData",
+      "methods": [
+        "load",
+        "update",
+        "load",
+        "delete",
+        "add",
+        "getId"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/GuildData.java": [
+    {
+      "class_name": "GuildData",
+      "methods": [
+        "load",
+        "update",
+        "add",
+        "delete"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/ExtraMonsterData.java": [
+    {
+      "class_name": "ExtraMonsterData",
+      "methods": [
+        "load",
+        "update",
+        "load"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/NpcQuestionData.java": [
+    {
+      "class_name": "NpcQuestionData",
+      "methods": [
+        "load",
+        "update",
+        "updateLot",
+        "load"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/DungeonData.java": [
+    {
+      "class_name": "DungeonData",
+      "methods": [
+        "load",
+        "update",
+        "load",
+        "get_all_keys"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/GladiatroolSpellsData.java": [
+    {
+      "class_name": "GladiatroolSpellsData",
+      "methods": [
+        "load",
+        "load",
+        "update",
+        "update",
+        "delete",
+        "add"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/ObjectActionData.java": [
+    {
+      "class_name": "ObjectActionData",
+      "methods": [
+        "load",
+        "update",
+        "load",
+        "reload"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/HeroicMobsGroups.java": [
+    {
+      "class_name": "HeroicMobsGroups",
+      "methods": [
+        "load",
+        "update",
+        "load",
+        "insert",
+        "update",
+        "loadFix",
+        "insertFix",
+        "updateFix"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/ZaapiData.java": [
+    {
+      "class_name": "ZaapiData",
+      "methods": [
+        "load",
+        "update",
+        "load"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/TrunkData.java": [
+    {
+      "class_name": "TrunkData",
+      "methods": [
+        "load",
+        "update",
+        "load",
+        "update",
+        "insert",
+        "updateCode"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/InteractiveDoorData.java": [
+    {
+      "class_name": "InteractiveDoorData",
+      "methods": [
+        "load",
+        "update",
+        "load"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/NpcAnswerData.java": [
+    {
+      "class_name": "NpcAnswerData",
+      "methods": [
+        "load",
+        "update",
+        "load",
+        "add"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/ScriptedCellData.java": [
+    {
+      "class_name": "ScriptedCellData",
+      "methods": [
+        "load",
+        "update",
+        "load",
+        "update",
+        "delete"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/QuestData.java": [
+    {
+      "class_name": "QuestData",
+      "methods": [
+        "load",
+        "update",
+        "load"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/InteractiveObjectData.java": [
+    {
+      "class_name": "InteractiveObjectData",
+      "methods": [
+        "load",
+        "update",
+        "load"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/HdvData.java": [
+    {
+      "class_name": "HdvData",
+      "methods": [
+        "load",
+        "update",
+        "load"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/MapData.java": [
+    {
+      "class_name": "MapData",
+      "methods": [
+        "load",
+        "update",
+        "updateGs",
+        "updateMonster",
+        "load",
+        "reload"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/GuildMemberData.java": [
+    {
+      "class_name": "GuildMemberData",
+      "methods": [
+        "load",
+        "update",
+        "load",
+        "delete",
+        "deleteAll",
+        "update",
+        "isPersoInGuild",
+        "isPersoInGuild"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/ObjectTemplateData.java": [
+    {
+      "class_name": "ObjectTemplateData",
+      "methods": [
+        "load",
+        "update",
+        "load",
+        "saveAvgprice"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/TutorialData.java": [
+    {
+      "class_name": "TutorialData",
+      "methods": [
+        "load",
+        "update",
+        "load"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/QuestStepData.java": [
+    {
+      "class_name": "QuestStepData",
+      "methods": [
+        "load",
+        "update",
+        "load"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/MountParkData.java": [
+    {
+      "class_name": "MountParkData",
+      "methods": [
+        "load",
+        "update",
+        "load",
+        "reload"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/SubAreaData.java": [
+    {
+      "class_name": "SubAreaData",
+      "methods": [
+        "load",
+        "update",
+        "load"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/DropData.java": [
+    {
+      "class_name": "DropData",
+      "methods": [
+        "load",
+        "update",
+        "load",
+        "reload"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/ExperienceData.java": [
+    {
+      "class_name": "ExperienceData",
+      "methods": [
+        "load",
+        "update",
+        "load"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/LangItemData.java": [
+    {
+      "class_name": "LangItemData",
+      "methods": [
+        "load",
+        "load",
+        "update"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/AreaData.java": [
+    {
+      "class_name": "AreaData",
+      "methods": [
+        "load",
+        "update",
+        "load"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/FullMorphData.java": [
+    {
+      "class_name": "FullMorphData",
+      "methods": [
+        "load",
+        "update",
+        "load"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/QuickSetData.java": [
+    {
+      "class_name": "QuickSetData",
+      "methods": [
+        "load",
+        "load",
+        "update",
+        "update",
+        "delete",
+        "add"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/MonsterData.java": [
+    {
+      "class_name": "MonsterData",
+      "methods": [
+        "load",
+        "update",
+        "load",
+        "reload"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/CraftData.java": [
+    {
+      "class_name": "CraftData",
+      "methods": [
+        "load",
+        "update",
+        "load"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/GiftData.java": [
+    {
+      "class_name": "GiftData",
+      "methods": [
+        "load",
+        "update",
+        "create",
+        "existByAccount",
+        "getByAccount",
+        "update"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/PrismData.java": [
+    {
+      "class_name": "PrismData",
+      "methods": [
+        "load",
+        "update",
+        "load",
+        "add",
+        "delete"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/QuestObjectiveData.java": [
+    {
+      "class_name": "QuestObjectiveData",
+      "methods": [
+        "load",
+        "update",
+        "load"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/PetTemplateData.java": [
+    {
+      "class_name": "PetTemplateData",
+      "methods": [
+        "load",
+        "update",
+        "load"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/EndFightActionData.java": [
+    {
+      "class_name": "EndFightActionData",
+      "methods": [
+        "load",
+        "update",
+        "load",
+        "reload",
+        "add",
+        "delete"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/AnimationData.java": [
+    {
+      "class_name": "AnimationData",
+      "methods": [
+        "load",
+        "load",
+        "update"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/RuneData.java": [
+    {
+      "class_name": "RuneData",
+      "methods": [
+        "load",
+        "update"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/ZaapData.java": [
+    {
+      "class_name": "ZaapData",
+      "methods": [
+        "load",
+        "update",
+        "load"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/GangsterData.java": [
+    {
+      "class_name": "GangsterData",
+      "methods": [
+        "load",
+        "update",
+        "load"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/BankData.java": [
+    {
+      "class_name": "BankData",
+      "methods": [
+        "load",
+        "update",
+        "add",
+        "update",
+        "get"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/PetData.java": [
+    {
+      "class_name": "PetData",
+      "methods": [
+        "load",
+        "update",
+        "load",
+        "add",
+        "delete"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/HdvObjectData.java": [
+    {
+      "class_name": "HdvObjectData",
+      "methods": [
+        "load",
+        "update",
+        "load",
+        "add",
+        "delete"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/ObjectData.java": [
+    {
+      "class_name": "ObjectData",
+      "methods": [
+        "load",
+        "load",
+        "update",
+        "insert",
+        "delete"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/JobData.java": [
+    {
+      "class_name": "JobData",
+      "methods": [
+        "load",
+        "update",
+        "load"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/dynamics/data/ChallengeData.java": [
+    {
+      "class_name": "ChallengeData",
+      "methods": [
+        "load",
+        "update",
+        "load"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/statics/StaticsDatabase.java": [
+    {
+      "class_name": "StaticsDatabase",
+      "methods": [
+        "initializeData",
+        "initializeConnection",
+        "getDataSource",
+        "getAccountData",
+        "getCommandData",
+        "getPlayerData",
+        "getServerData",
+        "getBanIpData",
+        "getAreaData",
+        "getSubAreaData",
+        "getGroupData",
+        "getHouseData",
+        "getTrunkData",
+        "getMountParkData",
+        "getObvejivanData",
+        "getPubData",
+        "getPrestigeData",
+        "getPrestigeBonusData"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/statics/AbstractDAO.java": [
+    {
+      "class_name": "AbstractDAO",
+      "methods": [
+        "execute",
+        "execute",
+        "getData",
+        "getPreparedStatement",
+        "close",
+        "close",
+        "close",
+        "close",
+        "close",
+        "sendError"
+      ]
+    },
+    {
+      "class_name": "Result",
+      "methods": []
+    }
+  ],
+  "org/starloco/locos/database/statics/data/PrestigeData.java": [
+    {
+      "class_name": "PrestigeData",
+      "methods": [
+        "load",
+        "load",
+        "update"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/statics/data/AccountData.java": [
+    {
+      "class_name": "AccountData",
+      "methods": [
+        "load",
+        "load",
+        "updateVoteAll",
+        "reload",
+        "update",
+        "updateLastConnection",
+        "setLogged",
+        "updateBannedTime",
+        "loadPoints",
+        "updatePoints",
+        "loadPointsWithoutUsersDb",
+        "updatePointsWithoutUsersDb",
+        "loadPointsWithUsersDb",
+        "updatePointsWithUsersDb"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/statics/data/HouseData.java": [
+    {
+      "class_name": "HouseData",
+      "methods": [
+        "load",
+        "update",
+        "load"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/statics/data/GroupData.java": [
+    {
+      "class_name": "GroupData",
+      "methods": [
+        "load",
+        "update"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/statics/data/BanIpData.java": [
+    {
+      "class_name": "BanIpData",
+      "methods": [
+        "load",
+        "update",
+        "add",
+        "delete"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/statics/data/ServerData.java": [
+    {
+      "class_name": "ServerData",
+      "methods": [
+        "load",
+        "update",
+        "updateTime",
+        "loggedZero"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/statics/data/TrunkData.java": [
+    {
+      "class_name": "TrunkData",
+      "methods": [
+        "load",
+        "update",
+        "load",
+        "insert",
+        "getNextId"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/statics/data/ObvejivanData.java": [
+    {
+      "class_name": "ObvejivanData",
+      "methods": [
+        "load",
+        "update",
+        "add",
+        "getAndDelete"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/statics/data/PrestigeBonusData.java": [
+    {
+      "class_name": "PrestigeBonusData",
+      "methods": [
+        "load",
+        "load",
+        "update"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/statics/data/PlayerData.java": [
+    {
+      "class_name": "PlayerData",
+      "methods": [
+        "getNextId",
+        "load",
+        "load",
+        "load",
+        "loadTitles",
+        "add",
+        "delete",
+        "load",
+        "update",
+        "updateInfos",
+        "updateSpells",
+        "updateGroupe",
+        "updateGroupe",
+        "updateTimeTaverne",
+        "updateTitles",
+        "updateLogged",
+        "updateAllLogged",
+        "exist",
+        "haveOtherPlayer",
+        "reloadGroup",
+        "canRevive",
+        "setRevive",
+        "updateArtefact"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/statics/data/MountParkData.java": [
+    {
+      "class_name": "MountParkData",
+      "methods": [
+        "load",
+        "update",
+        "load",
+        "reload"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/statics/data/SubAreaData.java": [
+    {
+      "class_name": "SubAreaData",
+      "methods": [
+        "load",
+        "update",
+        "load"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/statics/data/AreaData.java": [
+    {
+      "class_name": "AreaData",
+      "methods": [
+        "load",
+        "update",
+        "load"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/statics/data/PubData.java": [
+    {
+      "class_name": "PubData",
+      "methods": [
+        "load",
+        "update"
+      ]
+    }
+  ],
+  "org/starloco/locos/database/statics/data/CommandData.java": [
+    {
+      "class_name": "CommandData",
+      "methods": [
+        "load",
+        "update"
+      ]
+    }
+  ],
+  "org/starloco/locos/client/Account.java": [
+    {
+      "class_name": "Account",
+      "methods": [
+        "getHeureVote",
+        "getLastVoteIP",
+        "getId",
+        "setId",
+        "getName",
+        "setName",
+        "getPseudo",
+        "getAnswer",
+        "getCurrentIp",
+        "setCurrentIp",
+        "getLastIP",
+        "setLastIP",
+        "getLastConnectionDate",
+        "setLastConnectionDate",
+        "getPoints",
+        "setPoints",
+        "mute",
+        "unMute",
+        "isMuted",
+        "getMuteTime",
+        "getMutePseudo",
+        "getBank",
+        "parseBankObjectsToDB",
+        "getBankKamas",
+        "setBankKamas",
+        "getGameClient",
+        "setGameClient",
+        "addPlayer",
+        "getPlayers",
+        "getCurrentPlayer",
+        "setCurrentPlayer",
+        "isBanned",
+        "setBanned",
+        "isOnline",
+        "setState",
+        "getState",
+        "getSubscribeRemaining",
+        "isSubscribe",
+        "isSubscribeWithoutCondition",
+        "createPlayer",
+        "deletePlayer",
+        "sendOnline",
+        "addFriend",
+        "removeFriend",
+        "isFriendWith",
+        "parseFriendListToDB",
+        "parseFriendList",
+        "addEnemy",
+        "removeEnemy",
+        "isEnemyWith",
+        "parseEnemyListToDB",
+        "parseEnemyList",
+        "recoverItem",
+        "getHdvEntries",
+        "countHdvEntries",
+        "resetAllChars",
+        "disconnect",
+        "updateVote",
+        "getClientVersion",
+        "setClientVersion",
+        "requiresConsolePacketAdaptation",
+        "isVip",
+        "getSwitchPacketKey",
+        "setSwitchPacketKey"
+      ]
+    }
+  ],
+  "org/starloco/locos/client/Player.java": [
+    {
+      "class_name": "Player",
+      "methods": [
+        "isEsclave",
+        "getIsCraftingType",
+        "setEsclave",
+        "CREATE_PERSONNAGE",
+        "getCompiledEmote",
+        "ClonePerso",
+        "getId",
+        "getName",
+        "setName",
+        "getGroupe",
+        "setGroupe",
+        "isInvisible",
+        "setInvisible",
+        "getSexe",
+        "setSexe",
+        "getClasse",
+        "setClasse",
+        "getColor1",
+        "getColor2",
+        "getColor3",
+        "getLevel",
+        "setLevel",
+        "getEnergy",
+        "setEnergy",
+        "getExp",
+        "setExp",
+        "getCurPdv",
+        "setPdv",
+        "getMaxPdv",
+        "setMaxPdv",
+        "getStats",
+        "getStatsParcho",
+        "parseStatsParcho",
+        "getDoAction",
+        "setDoAction",
+        "setRoleplayBuff",
+        "setBenediction",
+        "setMalediction",
+        "setMascotte",
+        "setCandy",
+        "calculTurnCandy",
+        "isSpec",
+        "setSpec",
+        "getAllTitle",
+        "setAllTitle",
+        "setSpells",
+        "teleportOldMap",
+        "getOldMap",
+        "setOldMap",
+        "getOldCell",
+        "setOldCell",
+        "setOnline",
+        "isOnline",
+        "getParty",
+        "setParty",
+        "parseSpellToDB",
+        "parseSpells",
+        "parseSpellsFullMorph",
+        "getSavePosition",
+        "set_savePos",
+        "getKamas",
+        "setKamas",
+        "get_buff",
+        "getAccount",
+        "setAccount",
+        "getSorts",
+        "get_spellPts",
+        "set_spellPts",
+        "get_guild",
+        "setChangeName",
+        "isChangeName",
+        "isReady",
+        "setReady",
+        "getDuelId",
+        "setDuelId",
+        "getFight",
+        "setFight",
+        "is_showFriendConnection",
+        "is_showWings",
+        "isShowSeller",
+        "setShowSeller",
+        "get_canaux",
+        "getCurCell",
+        "setCurCell",
+        "get_size",
+        "set_size",
+        "getGfxId",
+        "setGfxId",
+        "isMorphMercenaire",
+        "getCurMap",
+        "setCurMap",
+        "isAway",
+        "setAway",
+        "isSitted",
+        "setSitted",
+        "get_capital",
+        "setSpellsPlace",
+        "learnSpell",
+        "learnSpell",
+        "learnSpell",
+        "unlearnSpell",
+        "unlearnSpell",
+        "boostSpell",
+        "boostSpellIncarnation",
+        "forgetSpell",
+        "demorph",
+        "getMorphMode",
+        "getMorphId",
+        "setMorphId",
+        "setFullMorph",
+        "parseSpellsFullMorph2",
+        "isMorph",
+        "canCac",
+        "unsetMorph",
+        "unsetFullMorph",
+        "parseSpellList",
+        "set_SpellPlace",
+        "replace_SpellInBook",
+        "getSortStatBySortIfHas",
+        "parseALK",
+        "remove",
+        "OnJoinGame",
+        "verifIfPlayerHasAllTonique",
+        "checkVote",
+        "SetSeeFriendOnline",
+        "sendGameCreate",
+        "parseToOa",
+        "parseToGM",
+        "parseToMerchant",
+        "getGMStuffString",
+        "getAsPacket",
+        "getGrade",
+        "xpString",
+        "emoteActive",
+        "setEmoteActive",
+        "getStuffStats",
+        "getBuffsStats",
+        "get_orientation",
+        "set_orientation",
+        "getInitiative",
+        "getTotalStats",
+        "getDonsStats",
+        "newStatsMorph",
+        "getPodUsed",
+        "getMaxPod",
+        "refreshLife",
+        "get_align",
+        "get_pdvper",
+        "useSmiley",
+        "boostStat",
+        "boostStatFixedCount",
+        "isMuted",
+        "parseObjetsToDB",
+        "addObjet",
+        "getItems",
+        "parseItemToASK",
+        "getItemsIDSplitByChar",
+        "getStoreItemsIDSplitByChar",
+        "hasItemGuid",
+        "sellItem",
+        "removeItem",
+        "removeItem",
+        "deleteItem",
+        "getObjetByPos",
+        "DestuffALL",
+        "refreshStats",
+        "levelUp",
+        "setXp",
+        "addXp",
+        "levelUpIncarnations",
+        "addXpIncarnations",
+        "addKamas",
+        "getSimilarItem",
+        "learnJob",
+        "unlearnJob",
+        "verifEquiped",
+        "hasEquiped",
+        "getInvitation",
+        "setInvitation",
+        "parseToPM",
+        "getNumbEquipedItemOfPanoplie",
+        "startActionOnCell",
+        "finishActionOnCell",
+        "teleportD",
+        "teleportLaby",
+        "teleport",
+        "teleport",
+        "disconnectInFight",
+        "getBankCost",
+        "getStringVar",
+        "refreshMapAfterFight",
+        "getBankKamas",
+        "setBankKamas",
+        "parseBankPacket",
+        "addCapital",
+        "addSpellPoint",
+        "addInBank",
+        "getSimilarBankItem",
+        "removeFromBank",
+        "openMountPark",
+        "fullPDV",
+        "warpToSavePos",
+        "removeByTemplateID",
+        "getJobs",
+        "getMetiers",
+        "doJobAction",
+        "finishJobAction",
+        "parseJobData",
+        "totalJobBasic",
+        "totalJobFM",
+        "canAggro",
+        "setCanAggro",
+        "getMetierBySkill",
+        "parseToFriendList",
+        "parseToEnemyList",
+        "getMetierByID",
+        "isOnMount",
+        "toogleOnMount",
+        "getMountXpGive",
+        "getMount",
+        "setMount",
+        "setMountGiveXp",
+        "resetVars",
+        "addChanel",
+        "removeChanel",
+        "modifAlignement",
+        "getDeshonor",
+        "setDeshonor",
+        "setShowWings",
+        "get_honor",
+        "set_honor",
+        "getALvl",
+        "setALvl",
+        "toggleWings",
+        "addHonor",
+        "remHonor",
+        "getGuildMember",
+        "setGuildMember",
+        "getAccID",
+        "parseZaapList",
+        "parsePrismesList",
+        "openZaapMenu",
+        "verifAndAddZaap",
+        "verifOtomaiZaap",
+        "openPrismeMenu",
+        "useZaap",
+        "usePrisme",
+        "parseZaaps",
+        "parsePrisme",
+        "stopZaaping",
+        "Zaapi_close",
+        "Prisme_close",
+        "Zaapi_use",
+        "hasItemTemplate",
+        "hasItemType",
+        "getItemTemplate",
+        "getItemTemplate",
+        "getNbItemTemplate",
+        "isDispo",
+        "get_isClone",
+        "set_isClone",
+        "get_title",
+        "set_title",
+        "VerifAndChangeItemPlace",
+        "get_traque",
+        "set_traque",
+        "setWife",
+        "get_wife_friendlist",
+        "parse_towife",
+        "meetWife",
+        "Divorce",
+        "getWife",
+        "setisOK",
+        "getisOK",
+        "changeOrientation",
+        "isDead",
+        "getDeathCount",
+        "increaseTotalKills",
+        "getTotalKills",
+        "getDeathInformation",
+        "die",
+        "revive",
+        "isGhost",
+        "setFuneral",
+        "setGhost",
+        "setAlive",
+        "set_maitre",
+        "get_maitre",
+        "getStoreItems",
+        "needEndFight",
+        "hasMobGroup",
+        "setNeededEndFight",
+        "setNeededEndFightAction",
+        "castEndFightAction",
+        "parseStoreItemsList",
+        "parseStoreItemsListPods",
+        "parseStoreItemstoBD",
+        "addInStore",
+        "getSimilarStoreItem",
+        "removeFromStore",
+        "removeStoreItem",
+        "addStoreItem",
+        "getSpeed",
+        "setSpeed",
+        "get_savestat",
+        "set_savestat",
+        "getMetierPublic",
+        "setMetierPublic",
+        "getLivreArtisant",
+        "setLivreArtisant",
+        "hasSpell",
+        "leaveEnnemyFaction",
+        "leaveEnnemyFactionAndPay",
+        "leaveFaction",
+        "teleportWithoutBlocked",
+        "teleportFaction",
+        "parsecolortomount",
+        "getItemClasseSpell",
+        "removeItemClasseSpell",
+        "verifModifItemClassSpell",
+        "addItemClasseSpell",
+        "addItemClasse",
+        "removeItemClasse",
+        "refreshItemClasse",
+        "getItemClasseModif",
+        "storeAllBuy",
+        "DialogTimer",
+        "getTimeTaverne",
+        "setTimeTaverne",
+        "getGameAction",
+        "setGameAction",
+        "getAlignMap",
+        "getEmotes",
+        "addStaticEmote",
+        "parseEmoteToDB",
+        "getBlockMovement",
+        "setBlockMovement",
+        "getGameClient",
+        "send",
+        "sendMessage",
+        "sendErrorMessage",
+        "sendPartyMessage",
+        "sendInformationMessage",
+        "sendServerMessage",
+        "isSubscribe",
+        "isInAreaNotSubscribe",
+        "cantDefie",
+        "cantAgro",
+        "cantCanal",
+        "cantTP",
+        "isInPrison",
+        "isInDungeon",
+        "addQuestPerso",
+        "delQuestPerso",
+        "getQuestPerso",
+        "getQuestPersoByQuest",
+        "getQuestPersoByQuestId",
+        "getQuestGmPacket",
+        "getInHouse",
+        "setInHouse",
+        "getIsOnDialogAction",
+        "setIsOnDialogAction",
+        "getExchangeAction",
+        "setExchangeAction",
+        "getCurJobAction",
+        "getTacticalMode",
+        "setTacticalMode",
+        "getAutoSkip",
+        "setAutoSkip",
+        "resetCapital",
+        "restatAll",
+        "restatKeepParcho",
+        "parcho",
+        "save",
+        "getPrestige",
+        "setPrestige",
+        "incrementePrestige",
+        "getPdvMaxByLevel",
+        "setPdvMaxByLevel",
+        "getCapitalByLevel",
+        "setCapitalByLevel",
+        "initialiseMaxPdv",
+        "getArtefact",
+        "addArtefact",
+        "getArtefactToString",
+        "unEquipItem",
+        "equipItem",
+        "setTonique",
+        "UpdateAllInit",
+        "UpdateInit",
+        "setToniqueEquilibrage",
+        "removeTonique",
+        "generateStatsTonique",
+        "GetequipedObjects",
+        "getWrPacket"
+      ]
+    }
+  ],
+  "org/starloco/locos/client/Prestige.java": [
+    {
+      "class_name": "Prestige",
+      "methods": [
+        "canPrestige",
+        "payPrice",
+        "check",
+        "apply",
+        "sendInfosCondition",
+        "sendBonus",
+        "getId",
+        "getArtefact",
+        "getMalusXp",
+        "getPrestigeBonus",
+        "setSpell",
+        "giveBonusToPlayer",
+        "giveStatsToConnection",
+        "removeStatsAfterNextPrestige",
+        "giveBonusAfterRestat",
+        "setInfos",
+        "setItems",
+        "setStatsStringToInt",
+        "getParcho",
+        "getCapital",
+        "getPdvMax",
+        "getBaseStats",
+        "getPrimaryStats",
+        "getAdvancedStats",
+        "getItems"
+      ]
+    },
+    {
+      "class_name": "PrestigeBonus",
+      "methods": [
+        "giveBonusToPlayer",
+        "giveStatsToConnection",
+        "removeStatsAfterNextPrestige",
+        "giveBonusAfterRestat",
+        "setInfos",
+        "setItems",
+        "setStatsStringToInt",
+        "getParcho",
+        "getCapital",
+        "getPdvMax",
+        "getBaseStats",
+        "getPrimaryStats",
+        "getAdvancedStats",
+        "getItems"
+      ]
+    }
+  ],
+  "org/starloco/locos/client/other/Stats.java": [
+    {
+      "class_name": "Stats",
+      "methods": [
+        "cumulStat",
+        "cumulStatFight",
+        "getMap",
+        "addOneStat",
+        "isSameStats",
+        "parseToItemSetStats",
+        "get",
+        "hasEffect",
+        "getEffect",
+        "equilibreStat"
+      ]
+    }
+  ],
+  "org/starloco/locos/client/other/Stalk.java": [
+    {
+      "class_name": "Stalk",
+      "methods": [
+        "getTraque",
+        "setTraque",
+        "getTime",
+        "setTime"
+      ]
+    }
+  ],
+  "org/starloco/locos/client/other/Party.java": [
+    {
+      "class_name": "Party",
+      "methods": [
+        "getPlayers",
+        "getChief",
+        "isChief",
+        "getMaster",
+        "setMaster",
+        "addPlayer",
+        "leave",
+        "moveAllPlayersToMaster",
+        "isWithTheMaster",
+        "teleportAllEsclaves"
+      ]
+    }
+  ],
+  "org/starloco/locos/client/other/Restriction.java": [
+    {
+      "class_name": "Restriction",
+      "methods": [
+        "get"
+      ]
+    }
+  ],
+  "org/starloco/locos/client/other/Shortcuts.java": [
+    {
+      "class_name": "Shortcuts",
+      "methods": [
+        "getPlayer",
+        "setPlayer",
+        "getPosition",
+        "setPosition",
+        "getObject",
+        "setObject"
+      ]
+    }
+  ],
+  "org/starloco/locos/client/other/QuickSet.java": [
+    {
+      "class_name": "QuickSet",
+      "methods": [
+        "getItemList",
+        "getPlayer",
+        "setPlayer",
+        "getIconId",
+        "setIconId",
+        "getObjectsArray",
+        "setObjectsArray",
+        "getObjectsString",
+        "setObjectsString",
+        "getPosId",
+        "setPosId",
+        "getName",
+        "setName"
+      ]
+    }
+  ],
+  "org/starloco/locos/client/other/Maitre.java": [
+    {
+      "class_name": "Maitre",
+      "methods": [
+        "refreh",
+        "teleportAllEsclaves",
+        "isEsclave",
+        "getEsclaves",
+        "getpEsclavesInMap",
+        "hasMaitreInMap"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/Fighter.java": [
+    {
+      "class_name": "Fighter",
+      "methods": [
+        "getPlayer",
+        "getId",
+        "setId",
+        "canPlay",
+        "setCanPlay",
+        "getFight",
+        "getType",
+        "getMob",
+        "isMob",
+        "getPersonnage",
+        "getDouble",
+        "isDouble",
+        "setDouble",
+        "getCollector",
+        "isCollector",
+        "setCollector",
+        "getPrism",
+        "setPrism",
+        "isPrisme",
+        "getTeam",
+        "setTeam",
+        "getTeam2",
+        "getOtherTeam",
+        "getCell",
+        "setCell",
+        "getPdvMax",
+        "removePdvMax",
+        "getPdv",
+        "setPdvMax",
+        "setPdv",
+        "removePdv",
+        "fullPdv",
+        "isFullPdv",
+        "isDead",
+        "setIsDead",
+        "hasLeft",
+        "setLeft",
+        "getIsHolding",
+        "setIsHolding",
+        "getHoldedBy",
+        "setHoldedBy",
+        "getOldCible",
+        "setOldCible",
+        "getInvocator",
+        "setInvocator",
+        "isInvocation",
+        "getLevelUp",
+        "setLevelUp",
+        "Disconnect",
+        "Reconnect",
+        "isDeconnected",
+        "getTurnRemaining",
+        "setTurnRemaining",
+        "getNbrDisconnection",
+        "getTraqued",
+        "setTraqued",
+        "isAlreadyPlayed",
+        "setAlreadyPlayed",
+        "setState",
+        "getState",
+        "haveState",
+        "sendState",
+        "haveInvocation",
+        "nbInvocation",
+        "getFightBuff",
+        "getFightBuffStats",
+        "getBuffValue",
+        "getBuff",
+        "getBuffsByEffectID",
+        "getTotalStatsLessBuff",
+        "hasBuff",
+        "addBuff",
+        "sendGIE",
+        "debuffOnFighterDie",
+        "debuff",
+        "refreshEndTurnBuff",
+        "initBuffStats",
+        "applyBeginningTurnBuff",
+        "getLaunchedSorts",
+        "refreshLaunchedSort",
+        "addLaunchedSort",
+        "getTotalStats",
+        "getMaitriseDmg",
+        "getSpellValueBool",
+        "testIfCC",
+        "testIfCC",
+        "getInitiative",
+        "getPa",
+        "getPm",
+        "getPros",
+        "getCurPa",
+        "setCurPa",
+        "getCurPm",
+        "setCurPm",
+        "canLaunchSpell",
+        "unHide",
+        "isHide",
+        "getPdvMaxOutFight",
+        "getChatiValue",
+        "getDefaultGfx",
+        "getLvl",
+        "xpString",
+        "getPacketsName",
+        "getGmPacket",
+        "compareTo",
+        "setHadSober",
+        "getHadSober",
+        "getSpellsFromFighterBuff"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/Fight.java": [
+    {
+      "class_name": "Fight",
+      "methods": [
+        "FightStateAddFlag",
+        "getId",
+        "setId",
+        "getState",
+        "setState",
+        "getGuildId",
+        "setGuildId",
+        "getType",
+        "setType",
+        "getSt1",
+        "setSt1",
+        "getSt2",
+        "setSt2",
+        "getCurPlayer",
+        "setCurPlayer",
+        "getCaptWinner",
+        "setCaptWinner",
+        "getCurFighterPa",
+        "setCurFighterPa",
+        "getCurFighterPm",
+        "setCurFighterPm",
+        "getCurFighterUsedPa",
+        "setCurFighterUsedPa",
+        "getCurFighterUsedPm",
+        "setCurFighterUsedPm",
+        "getTeam",
+        "getTeam0",
+        "getTeam1",
+        "getDeadList",
+        "removeDead",
+        "getViewer",
+        "getStart0",
+        "getStart1",
+        "getAllChallenges",
+        "getRholBack",
+        "getAllGlyphs",
+        "getAllTraps",
+        "getCapturer",
+        "getTrainer",
+        "getStartTime",
+        "setStartTime",
+        "getLaunchTime",
+        "isLocked0",
+        "setLocked0",
+        "isLocked1",
+        "setLocked1",
+        "isOnlyGroup0",
+        "setOnlyGroup0",
+        "isOnlyGroup1",
+        "setOnlyGroup1",
+        "isHelp0",
+        "setHelp0",
+        "isHelp1",
+        "setHelp1",
+        "isViewerOk",
+        "setViewerOk",
+        "isHaveKnight",
+        "setHaveKnight",
+        "isBegin",
+        "setBegin",
+        "isCheckTimer",
+        "setCheckTimer",
+        "isCurAction",
+        "isTraped",
+        "setTraped",
+        "removeTraped",
+        "setCurAction",
+        "getMobGroup",
+        "setMobGroup",
+        "getCollector",
+        "setCollector",
+        "getPrism",
+        "setPrism",
+        "getMap",
+        "setMap",
+        "getMapOld",
+        "setMapOld",
+        "getInit0",
+        "setInit0",
+        "getInit1",
+        "setInit1",
+        "getFullSoul",
+        "setFullSoul",
+        "getDefenders",
+        "setDefenders",
+        "getTrainerWinner",
+        "setTrainerWinner",
+        "isFinish",
+        "getTeamId",
+        "getOtherTeamId",
+        "scheduleTimer",
+        "demorph",
+        "startFight",
+        "leftFight",
+        "endFight",
+        "startTurn",
+        "endTurn",
+        "endTurn",
+        "doPoisons",
+        "newTurn",
+        "playerPass",
+        "joinFight",
+        "joinCollectorFight",
+        "joinPrismFight",
+        "joinAsSpect",
+        "toggleLockTeam",
+        "toggleLockSpec",
+        "toggleOnlyGroup",
+        "toggleHelp",
+        "showCaseToTeam",
+        "showCaseToAll",
+        "initOrderPlaying",
+        "tryCaC",
+        "tryCastSpell",
+        "checkIfTrapCanBePlaced",
+        "canCastSpell1",
+        "onFighterDeplace",
+        "onFighterDie",
+        "removeCarry",
+        "getFighters",
+        "getFighters2",
+        "getFighterByPerso",
+        "getRandomCell",
+        "exchangePlace",
+        "isOccuped",
+        "getNextLowerFighterGuid",
+        "addFighterInTeam",
+        "addChevalier",
+        "playerDisconnect",
+        "canCastSpell2",
+        "playerReconnect",
+        "verifIfAllReady",
+        "verifyStillInFight",
+        "verifOtherTeamIsDead",
+        "verifIfTeamIsDead",
+        "verifIfTeamAllDead",
+        "onPlayerWin",
+        "onPlayerLoose",
+        "getAlignementOfTraquer",
+        "onGK",
+        "getGE",
+        "compare",
+        "deplace",
+        "getGTL",
+        "parseFightInfos",
+        "getTeamSizeWithoutInvocation",
+        "getFighterByOrdreJeu",
+        "getOrderPlayingSize",
+        "haveFighterInOrdreJeu",
+        "getOrderPlaying",
+        "cast",
+        "give",
+        "stackDrops",
+        "getPlayersSameIP",
+        "setWalkingPacket",
+        "getWalkingPacket",
+        "getFighterByGameOrder"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/Challenge.java": [
+    {
+      "class_name": "Challenge",
+      "methods": [
+        "getType",
+        "getAlive",
+        "getXp",
+        "getDrop",
+        "getWin",
+        "loose",
+        "getPacketEndFight",
+        "challengeWin",
+        "challengeLoose",
+        "challengeSpecLoose",
+        "parseToPacket",
+        "showCibleToPerso",
+        "showCibleToFight",
+        "fightStart",
+        "fightEnd",
+        "onFighterDie",
+        "onFighterAttacked",
+        "onFightersAttacked",
+        "onMobDie",
+        "onPlayerMove",
+        "onPlayerAction",
+        "onPlayerCac",
+        "onPlayerSpell",
+        "onPlayerStartTurn",
+        "onPlayerEndTurn"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/AbstractNeedSpell.java": [
+    {
+      "class_name": "AbstractNeedSpell",
+      "methods": [
+        "getListSpellOf"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/IAHandler.java": [
+    {
+      "class_name": "IAHandler",
+      "methods": [
+        "select"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/AbstractIA.java": [
+    {
+      "class_name": "AbstractIA",
+      "methods": [
+        "getFight",
+        "getFighter",
+        "isStop",
+        "setStop",
+        "endTurn",
+        "decrementCount",
+        "addNext"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA5.java": [
+    {
+      "class_name": "IA5",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA69.java": [
+    {
+      "class_name": "IA69",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA41.java": [
+    {
+      "class_name": "IA41",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA70.java": [
+    {
+      "class_name": "IA70",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA18.java": [
+    {
+      "class_name": "IA18",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA105.java": [
+    {
+      "class_name": "IA105",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA77.java": [
+    {
+      "class_name": "IA77",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA60.java": [
+    {
+      "class_name": "IA60",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA29.java": [
+    {
+      "class_name": "IA29",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA30.java": [
+    {
+      "class_name": "IA30",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA101.java": [
+    {
+      "class_name": "IA101",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA28.java": [
+    {
+      "class_name": "IA28",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA12.java": [
+    {
+      "class_name": "IA12",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA106.java": [
+    {
+      "class_name": "IA106",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA81.java": [
+    {
+      "class_name": "IA81",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA55.java": [
+    {
+      "class_name": "IA55",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA73.java": [
+    {
+      "class_name": "IA73",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA63.java": [
+    {
+      "class_name": "IA63",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA107.java": [
+    {
+      "class_name": "IA107",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA16.java": [
+    {
+      "class_name": "IA16",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA82.java": [
+    {
+      "class_name": "IA82",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA72.java": [
+    {
+      "class_name": "IA72",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA78.java": [
+    {
+      "class_name": "IA78",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA50.java": [
+    {
+      "class_name": "IA50",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA54.java": [
+    {
+      "class_name": "IA54",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA17.java": [
+    {
+      "class_name": "IA17",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA9.java": [
+    {
+      "class_name": "IA9",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA52.java": [
+    {
+      "class_name": "IA52",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA51.java": [
+    {
+      "class_name": "IA51",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA6.java": [
+    {
+      "class_name": "IA6",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA32.java": [
+    {
+      "class_name": "IA32",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA59.java": [
+    {
+      "class_name": "IA59",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA58.java": [
+    {
+      "class_name": "IA58",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA38.java": [
+    {
+      "class_name": "IA38",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA19.java": [
+    {
+      "class_name": "IA19",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA2.java": [
+    {
+      "class_name": "IA2",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA53.java": [
+    {
+      "class_name": "IA53",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA35.java": [
+    {
+      "class_name": "IA35",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA74.java": [
+    {
+      "class_name": "IA74",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA40.java": [
+    {
+      "class_name": "IA40",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA24.java": [
+    {
+      "class_name": "IA24",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA104.java": [
+    {
+      "class_name": "IA104",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA8.java": [
+    {
+      "class_name": "IA8",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA10.java": [
+    {
+      "class_name": "IA10",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA46.java": [
+    {
+      "class_name": "IA46",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA65.java": [
+    {
+      "class_name": "IA65",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA66.java": [
+    {
+      "class_name": "IA66",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA31.java": [
+    {
+      "class_name": "IA31",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA25.java": [
+    {
+      "class_name": "IA25",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA42.java": [
+    {
+      "class_name": "IA42",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA75.java": [
+    {
+      "class_name": "IA75",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA103.java": [
+    {
+      "class_name": "IA103",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA57.java": [
+    {
+      "class_name": "IA57",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA27.java": [
+    {
+      "class_name": "IA27",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA44.java": [
+    {
+      "class_name": "IA44",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA80.java": [
+    {
+      "class_name": "IA80",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA47.java": [
+    {
+      "class_name": "IA47",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA21.java": [
+    {
+      "class_name": "IA21",
+      "methods": [
+        "apply",
+        "attackNearIfPossible",
+        "attackFarIfPossible"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA79.java": [
+    {
+      "class_name": "IA79",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA62.java": [
+    {
+      "class_name": "IA62",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA26.java": [
+    {
+      "class_name": "IA26",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA67.java": [
+    {
+      "class_name": "IA67",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA76.java": [
+    {
+      "class_name": "IA76",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA64.java": [
+    {
+      "class_name": "IA64",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA100.java": [
+    {
+      "class_name": "IA100",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA61.java": [
+    {
+      "class_name": "IA61",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA14.java": [
+    {
+      "class_name": "IA14",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA68.java": [
+    {
+      "class_name": "IA68",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/Blank.java": [
+    {
+      "class_name": "Blank",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA39.java": [
+    {
+      "class_name": "IA39",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA102.java": [
+    {
+      "class_name": "IA102",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA33.java": [
+    {
+      "class_name": "IA33",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA45.java": [
+    {
+      "class_name": "IA45",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA48.java": [
+    {
+      "class_name": "IA48",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA23.java": [
+    {
+      "class_name": "IA23",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA49.java": [
+    {
+      "class_name": "IA49",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA56.java": [
+    {
+      "class_name": "IA56",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA85.java": [
+    {
+      "class_name": "IA85",
+      "methods": [
+        "apply",
+        "getNearestLowerHpEnemy"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA37.java": [
+    {
+      "class_name": "IA37",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA22.java": [
+    {
+      "class_name": "IA22",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA71.java": [
+    {
+      "class_name": "IA71",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA43.java": [
+    {
+      "class_name": "IA43",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA20.java": [
+    {
+      "class_name": "IA20",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA34.java": [
+    {
+      "class_name": "IA34",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/type/IA36.java": [
+    {
+      "class_name": "IA36",
+      "methods": [
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/util/AstarPathfinding.java": [
+    {
+      "class_name": "AstarPathfinding",
+      "methods": [
+        "getShortestPath",
+        "getShortestPath",
+        "getPath",
+        "getLastNode",
+        "bestNode",
+        "addListClose",
+        "getCostG",
+        "getMap",
+        "setMap",
+        "getFight",
+        "setFight",
+        "getCellStart",
+        "setCellStart",
+        "getCellEnd",
+        "setCellEnd"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/util/Node.java": [
+    {
+      "class_name": "Node",
+      "methods": [
+        "getCountG",
+        "setCountG",
+        "getCountF",
+        "setCountF",
+        "getHeristic",
+        "setHeristic",
+        "getCellId",
+        "setCellId",
+        "getParent",
+        "setParent",
+        "setChild"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/ia/util/Function.java": [
+    {
+      "class_name": "Function",
+      "methods": [
+        "getInstance",
+        "attackIfPossiblerat",
+        "TPIfPossiblesphinctercell",
+        "attackIfPossiblesphinctercell",
+        "tryTurtleInvocation",
+        "getNearest",
+        "attackIfPossibleAll",
+        "moveToAttackIfPossibleAll",
+        "attackIfPossiblesacrifier",
+        "IfPossibleRasboulvulner",
+        "invoctantaIfPossible",
+        "getEnnemyWithDistance",
+        "findSpell",
+        "buffIfPossibleKrala",
+        "buffIfPossibleMinotot",
+        "buffIfPossibleKitsou",
+        "buffIfPossibleTortu",
+        "tpIfPossibleTynril",
+        "pmgongon",
+        "tpIfPossibleRasboul",
+        "HealIfPossiblefriend",
+        "tpIfPossibleKaskargo",
+        "attackIfPossibleKaskargo",
+        "attackIfPossiblePeki",
+        "attackIfPossibleMinotot",
+        "attackIfPossibleRN",
+        "attackIfPossibleBuveur",
+        "attackIfPossibleWobot",
+        "attackIfPossibleTynril",
+        "moveNearIfPossible",
+        "getMaxCellForTP",
+        "attackIfPossibleDiscipleimpair",
+        "attackBondIfPossible",
+        "attackIfPossibleDisciplepair",
+        "moveFarIfPossible",
+        "testCotes",
+        "invocIfPossible",
+        "invocIfPossibleKimbo",
+        "invocIfPossibleCroca",
+        "checkIfInvocPossible",
+        "invocIfPossible",
+        "invocIfPossibleloin",
+        "getInvocSpell",
+        "getInvocSpellDopeul",
+        "HealIfPossible",
+        "HealIfPossible",
+        "HealIfPossible",
+        "HealIfPossible",
+        "buffIfPossible",
+        "getBuffSpell",
+        "checkIfBuffAvailable",
+        "buffIfPossible",
+        "getBuffSpellDopeul",
+        "getHealSpell",
+        "moveautourIfPossible",
+        "moveIfPossiblecontremur",
+        "movediagIfPossible",
+        "moveenfaceIfPossible",
+        "movecacIfPossible",
+        "getNearestFriendInvoc",
+        "getNearestFriendNoInvok",
+        "getNearestFriend",
+        "getNearestEnnemy",
+        "getNearestEnnemyNotListed",
+        "getNearestEnnemyNotListedLos",
+        "getNearestEnnemynbrcasemax",
+        "getNearEnnemylignenbrcasemax",
+        "getNearEnnemylignenbrcasemaxNotListed",
+        "getNearestEnnemymurnbrcasemax",
+        "getNearestAllnbrcasemax",
+        "getNearestAminbrcasemax",
+        "getNearestAminoinvocnbrcasemax",
+        "getSummoner",
+        "getNearestinvocateurnbrcasemax",
+        "getNearestInvocnbrcasemax",
+        "getLowHpEnnemyList",
+        "attackIfPossible",
+        "attackIfPossibleglyph",
+        "attackIfPossibleCM1",
+        "attackIfPossiblevisee",
+        "attackAllIfPossible",
+        "moveToAction",
+        "moveToAttackIfPossible",
+        "moveToAttackIfPossibleLancerTofu",
+        "moveToAttackIfPossible2",
+        "moveToAttackIfPossible2",
+        "getLaunchableSort",
+        "TriInfluenceSorts",
+        "getPotentialTarget",
+        "getInfl",
+        "getBestSpellForTarget",
+        "getBestSpellForTargetDopeul",
+        "getBestSpellForTargetDopeulglyph",
+        "getBestTargetZone",
+        "calculInfluenceHeal",
+        "calculInfluence",
+        "calculInfluence",
+        "ifCanAttack",
+        "ifCanAttackWithSpell",
+        "ifCanMove"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/traps/Glyph.java": [
+    {
+      "class_name": "Glyph",
+      "methods": [
+        "getCaster",
+        "getCell",
+        "getSize",
+        "getSpell",
+        "decrementDuration",
+        "getColor",
+        "onTrapped",
+        "disappear"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/traps/Trap.java": [
+    {
+      "class_name": "Trap",
+      "methods": [
+        "getSpell",
+        "getCell",
+        "getSize",
+        "getCaster",
+        "isUnHide",
+        "setIsUnHide",
+        "getColor",
+        "desappear",
+        "desappear",
+        "appear",
+        "onTraped",
+        "isPushing",
+        "doTraps",
+        "checkPushingTraps"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/spells/Spell.java": [
+    {
+      "class_name": "Spell",
+      "methods": [
+        "setInfos",
+        "getEffectTargets",
+        "getCCEffectTargets",
+        "getSpriteID",
+        "getSpriteInfos",
+        "getSpellID",
+        "getStatsByLevel",
+        "getNombre",
+        "getSortsStats",
+        "addSortStats",
+        "getType",
+        "setType",
+        "getDuration",
+        "parseEffect",
+        "getSpellID",
+        "getSpell",
+        "getSpriteID",
+        "getSpriteInfos",
+        "getLevel",
+        "getPACost",
+        "getMinPO",
+        "getMaxPO",
+        "getTauxCC",
+        "getTauxEC",
+        "isLineLaunch",
+        "hasLDV",
+        "isEmptyCell",
+        "isModifPO",
+        "getMaxLaunchbyTurn",
+        "getMaxLaunchByTarget",
+        "getCoolDown",
+        "getReqLevel",
+        "isEcEndTurn",
+        "getEffects",
+        "getCCeffects",
+        "getPorteeType",
+        "isTrap",
+        "applySpellEffectToFight",
+        "applySpellEffectToFight"
+      ]
+    },
+    {
+      "class_name": "SortStats",
+      "methods": [
+        "parseEffect",
+        "getSpellID",
+        "getSpell",
+        "getSpriteID",
+        "getSpriteInfos",
+        "getLevel",
+        "getPACost",
+        "getMinPO",
+        "getMaxPO",
+        "getTauxCC",
+        "getTauxEC",
+        "isLineLaunch",
+        "hasLDV",
+        "isEmptyCell",
+        "isModifPO",
+        "getMaxLaunchbyTurn",
+        "getMaxLaunchByTarget",
+        "getCoolDown",
+        "getReqLevel",
+        "isEcEndTurn",
+        "getEffects",
+        "getCCeffects",
+        "getPorteeType",
+        "isTrap",
+        "applySpellEffectToFight",
+        "applySpellEffectToFight"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/spells/SpellEffect.java": [
+    {
+      "class_name": "SpellEffect",
+      "methods": [
+        "getTargets",
+        "applyOnHitBuffs",
+        "applyReflectDamage",
+        "getDuration",
+        "getTurn",
+        "setTurn",
+        "isDebuffabe",
+        "getEffectID",
+        "setEffectID",
+        "getJet",
+        "getValue",
+        "setValue",
+        "getChance",
+        "getArgs",
+        "setArgs",
+        "getMaxMinSpell",
+        "decrementDuration",
+        "applyBeginingBuff",
+        "applyToFight",
+        "getDurationFixed",
+        "getCaster",
+        "getSpell",
+        "applyToFight",
+        "postProcessSpellEffect",
+        "checkSacriersVitalPunishmentHeal",
+        "applyEffect_4",
+        "applyEffect_5",
+        "applyEffect_6",
+        "applyEffect_8",
+        "applyEffect_9",
+        "applyEffect_50",
+        "applyEffect_51",
+        "applyEffect_77",
+        "applyEffect_78",
+        "applyEffect_79",
+        "applyEffect_81",
+        "applyEffect_82",
+        "applyEffect_84",
+        "applyEffect_85",
+        "applyEffect_86",
+        "applyEffect_87",
+        "applyEffect_88",
+        "applyEffect_89",
+        "applyEffect_90",
+        "applyEffect_91",
+        "applyEffect_92",
+        "applyEffect_93",
+        "applyEffect_94",
+        "applyEffect_95",
+        "applyEffect_96",
+        "applyEffect_97",
+        "applyEffect_98",
+        "applyEffect_99",
+        "applyEffect_100",
+        "applyEffect_101",
+        "applyEffect_105",
+        "applyEffect_106",
+        "applyEffect_107",
+        "applyEffect_108",
+        "applyEffect_109",
+        "applyEffect_110",
+        "applyEffect_111",
+        "applyEffect_112",
+        "applyEffect_114",
+        "applyEffect_115",
+        "applyEffect_116",
+        "applyEffect_117",
+        "applyEffect_118",
+        "applyEffect_119",
+        "applyEffect_120",
+        "applyEffect_121",
+        "applyEffect_122",
+        "applyEffect_123",
+        "applyEffect_124",
+        "applyEffect_125",
+        "applyEffect_126",
+        "applyEffect_127",
+        "applyEffect_128",
+        "applyEffect_130",
+        "applyEffect_131",
+        "applyEffect_132",
+        "applyEffect_138",
+        "applyEffect_140",
+        "applyEffect_141",
+        "applyEffect_142",
+        "applyEffect_143",
+        "applyEffect_144",
+        "applyEffect_145",
+        "applyEffect_149",
+        "applyEffect_150",
+        "applyEffect_152",
+        "applyEffect_153",
+        "applyEffect_154",
+        "applyEffect_155",
+        "applyEffect_156",
+        "applyEffect_157",
+        "applyEffect_160",
+        "applyEffect_161",
+        "applyEffect_162",
+        "applyEffect_163",
+        "applyEffect_164",
+        "applyEffect_165",
+        "applyEffect_168",
+        "applyEffect_169",
+        "applyEffect_171",
+        "applyEffect_176",
+        "applyEffect_177",
+        "applyEffect_178",
+        "applyEffect_179",
+        "applyEffect_180",
+        "applyEffect_181",
+        "applyEffect_182",
+        "applyEffect_183",
+        "applyEffect_184",
+        "applyEffect_185",
+        "applyEffect_186",
+        "applyEffect_202",
+        "applyEffect_210",
+        "applyEffect_211",
+        "applyEffect_212",
+        "applyEffect_213",
+        "applyEffect_214",
+        "applyEffect_215",
+        "applyEffect_216",
+        "applyEffect_217",
+        "applyEffect_218",
+        "applyEffect_219",
+        "applyEffect_220",
+        "applyEffect_265",
+        "applyEffect_266",
+        "applyEffect_267",
+        "applyEffect_268",
+        "applyEffect_269",
+        "applyEffect_270",
+        "applyEffect_271",
+        "applyEffect_279",
+        "applyEffect_293",
+        "applyEffect_320",
+        "applyEffect_400",
+        "applyEffect_401",
+        "applyEffect_402",
+        "applyEffect_671",
+        "applyEffect_672",
+        "applyEffect_765",
+        "applyEffect_765B",
+        "applyEffect_776",
+        "applyEffect_780",
+        "applyEffect_781",
+        "applyEffect_782",
+        "applyEffect_783",
+        "applyEffect_784",
+        "applyEffect_786",
+        "applyEffect_787",
+        "applyEffect_788",
+        "applyEffect_950",
+        "applyEffect_951",
+        "applyEffect_1000",
+        "applyEffect_1001",
+        "applyEffect_1002",
+        "trierCibles",
+        "verifmobs",
+        "checkTraps",
+        "applyFinalDamage"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/spells/GladiatroolSpells.java": [
+    {
+      "class_name": "GladiatroolSpells",
+      "methods": [
+        "getId",
+        "setId",
+        "getPlayer",
+        "setPlayer",
+        "getFullMorphId",
+        "setFullMorphId",
+        "getSpells",
+        "setSpells"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/spells/LaunchedSpell.java": [
+    {
+      "class_name": "LaunchedSpell",
+      "methods": [
+        "cooldownGood",
+        "getNbLaunch",
+        "getNbLaunchTarget",
+        "haveEffectTarget",
+        "getTarget",
+        "getSpellId",
+        "getCooldown",
+        "actuCooldown"
+      ]
+    }
+  ],
+  "org/starloco/locos/fight/turn/Turn.java": [
+    {
+      "class_name": "Turn",
+      "methods": [
+        "getStartTime",
+        "stop",
+        "run"
+      ]
+    }
+  ],
+  "org/starloco/locos/game/GameServer.java": [
+    {
+      "class_name": "GameServer",
+      "methods": [
+        "initialize",
+        "close",
+        "getClients",
+        "getPlayersNumberByIp",
+        "getServerTime",
+        "setState",
+        "getWaitingAccount",
+        "deleteWaitingAccount",
+        "addWaitingAccount",
+        "a",
+        "kickAll"
+      ]
+    }
+  ],
+  "org/starloco/locos/game/GameClient.java": [
+    {
+      "class_name": "GameClient",
+      "methods": [
+        "getSession",
+        "getPlayer",
+        "getAccount",
+        "getLanguage",
+        "parsePacket",
+        "parseQuickSetPacket",
+        "createQuickSet",
+        "modifyQuickSet",
+        "applyQuickSet",
+        "deleteQuickSet",
+        "parseDeconnectionPacket",
+        "Deconnection",
+        "parseGladiatroolPacket",
+        "createTonique",
+        "parseAccountPacket",
+        "mimibiote",
+        "createMimibiote",
+        "dissociateMimibiote",
+        "addCharacter",
+        "boost",
+        "deleteCharacter",
+        "getQueuePosition",
+        "getGifts",
+        "attributeGiftToCharacter",
+        "sendIdentity",
+        "getCharacters",
+        "retry",
+        "setCharacter",
+        "sendTicket",
+        "requestRegionalVersion",
+        "generateKey",
+        "parseBasicsPacket",
+        "authorisedCommand",
+        "getDate",
+        "tchat",
+        "whoIs",
+        "chooseState",
+        "goToMap",
+        "parseConquestPacket",
+        "requestBalance",
+        "getAlignedBonus",
+        "worldInfos",
+        "prismInfos",
+        "prismFight",
+        "parseChanelPacket",
+        "subscribeChannels",
+        "parseDialogPacket",
+        "create",
+        "response",
+        "leave",
+        "parseDocumentPacket",
+        "parseExchangePacket",
+        "accept",
+        "buy",
+        "bigStore",
+        "ready",
+        "replayCraft",
+        "movementItemOrKamas",
+        "movementItemOrKamasDons",
+        "askOfflineExchange",
+        "offlineExchange",
+        "putInInventory",
+        "putInMountPark",
+        "request",
+        "sell",
+        "bookOfArtisant",
+        "setPublicMode",
+        "leaveExchange",
+        "parseEnvironementPacket",
+        "setDirection",
+        "useEmote",
+        "parseFrienDDacket",
+        "addFriend",
+        "removeFriend",
+        "joinWife",
+        "parseFightPacket",
+        "parseGamePacket",
+        "sendActions",
+        "gameParseDeplacementPacket",
+        "gameCheckSign",
+        "gameTryCastSpell",
+        "gameTryCac",
+        "gameAction",
+        "houseAction",
+        "gameAskDuel",
+        "gameAcceptDuel",
+        "gameCancelDuel",
+        "gameJoinFight",
+        "gameAggro",
+        "gameCollector",
+        "gamePrism",
+        "showMonsterTarget",
+        "setFlag",
+        "getExtraInformations",
+        "sendExtraInformations",
+        "actionAck",
+        "setPlayerPosition",
+        "leaveFight",
+        "readyFight",
+        "parseGuildPacket",
+        "boostCaracteristique",
+        "boostSpellGuild",
+        "createGuild",
+        "teleportToGuildFarm",
+        "removeTaxCollector",
+        "teleportToGuildHouse",
+        "placeTaxCollector",
+        "getInfos",
+        "invitationGuild",
+        "banToGuild",
+        "changeMemberProfil",
+        "joinOrLeaveTaxCollector",
+        "leavePanelGuildCreate",
+        "parseHousePacket",
+        "parseEnemyPacket",
+        "addEnemy",
+        "removeEnemy",
+        "parseJobOption",
+        "parseHouseKodePacket",
+        "sendKey",
+        "parseObjectPacket",
+        "deleteShortcutObject",
+        "moveShortcutObject",
+        "addToShortcutObject",
+        "destroyObject",
+        "dropObject",
+        "onMovementFeedMount",
+        "onMovementFeedPet",
+        "onMovementItemClass",
+        "onMovementItemIsTwoHand",
+        "onMovementItemObvi",
+        "onMovementUnEquipObject",
+        "onMovementEquipItem",
+        "onMovementSecureCraft",
+        "onMovementEquipUnequipItem",
+        "movementObject",
+        "useObject",
+        "dissociateObvi",
+        "feedObvi",
+        "setSkinObvi",
+        "parseGroupPacket",
+        "acceptInvitation",
+        "followMember",
+        "followAllMember",
+        "inviteParty",
+        "refuseInvitation",
+        "leaveParty",
+        "whereIsParty",
+        "parseMountPacket",
+        "buyMountPark",
+        "dataMount",
+        "killMount",
+        "renameMount",
+        "rideMount",
+        "sellMountPark",
+        "setXpMount",
+        "castrateMount",
+        "removeObjectInMountPark",
+        "parseQuestData",
+        "parseSpellPacket",
+        "boostSpell",
+        "forgetSpell",
+        "moveToUsed",
+        "parseWaypointPacket",
+        "waypointUse",
+        "zaapiUse",
+        "prismUse",
+        "waypointLeave",
+        "zaapiLeave",
+        "prismLeave",
+        "parseFoireTroll",
+        "kick",
+        "disconnect",
+        "addAction",
+        "removeAction",
+        "distPecheur",
+        "changeName",
+        "send"
+      ]
+    }
+  ],
+  "org/starloco/locos/game/GameHandler.java": [
+    {
+      "class_name": "GameHandler",
+      "methods": [
+        "sessionCreated",
+        "messageReceived",
+        "sessionClosed",
+        "exceptionCaught",
+        "messageSent",
+        "inputClosed",
+        "event",
+        "sessionIdle",
+        "sessionOpened",
+        "kick"
+      ]
+    }
+  ],
+  "org/starloco/locos/game/filter/IPInstance.java": [
+    {
+      "class_name": "IPInstance",
+      "methods": []
+    }
+  ],
+  "org/starloco/locos/game/scheduler/Updatable.java": [
+    {
+      "class_name": "Updatable",
+      "methods": [
+        "verify",
+        "update"
+      ]
+    }
+  ],
+  "org/starloco/locos/game/scheduler/entity/WorldPlayerOption.java": [
+    {
+      "class_name": "WorldPlayerOption",
+      "methods": [
+        "update",
+        "get"
+      ]
+    }
+  ],
+  "org/starloco/locos/game/scheduler/entity/WorldPub.java": [
+    {
+      "class_name": "WorldPub",
+      "methods": [
+        "update",
+        "get"
+      ]
+    }
+  ],
+  "org/starloco/locos/game/scheduler/entity/WorldSave.java": [
+    {
+      "class_name": "WorldSave",
+      "methods": [
+        "update",
+        "cast",
+        "get"
+      ]
+    }
+  ],
+  "org/starloco/locos/game/action/ExchangeAction.java": [
+    {
+      "class_name": "ExchangeAction",
+      "methods": [
+        "getType",
+        "getValue"
+      ]
+    }
+  ],
+  "org/starloco/locos/game/action/GameAction.java": [
+    {
+      "class_name": "GameAction",
+      "methods": []
+    }
+  ],
+  "org/starloco/locos/game/world/World.java": [
+    {
+      "class_name": "World",
+      "methods": [
+        "getCryptManager",
+        "getItemSets",
+        "addAccount",
+        "removeAccount",
+        "getAccount",
+        "getAccounts",
+        "getAccountsByIp",
+        "getAccountByPseudo",
+        "getPlayers",
+        "addPlayer",
+        "getPlayerByName",
+        "getPlayer",
+        "getOnlinePlayers",
+        "getMaps",
+        "getMap",
+        "addMap",
+        "getGameObjects",
+        "addGameObject",
+        "getGameObject",
+        "removeGameObject",
+        "addPlayerCommand",
+        "getPlayerCommand",
+        "getPlayerCommandByName",
+        "getSpells",
+        "getObjectsTemplates",
+        "getAnswers",
+        "getMounts",
+        "getAreas",
+        "getSubAreas",
+        "getGuilds",
+        "getMountparks",
+        "getTrunks",
+        "getCollectors",
+        "getHouses",
+        "getPrisms",
+        "getExtraMonsters",
+        "addPrestige",
+        "getPrestigeById",
+        "getPrestiges",
+        "getAllShortcuts",
+        "getShortcutsFromPlayer",
+        "getShortcutsFromPlayerByPosition",
+        "addShortcut",
+        "removeShortcut",
+        "createWorld",
+        "addExtraMonster",
+        "getExtraMonsterOnMap",
+        "loadExtraMonster",
+        "getGroupFix",
+        "addGroupFix",
+        "loadMonsterOnMap",
+        "getArea",
+        "getSubArea",
+        "addArea",
+        "addSubArea",
+        "getSousZoneStateString",
+        "addNpcAnswer",
+        "getNpcAnswer",
+        "getBalanceArea",
+        "getBalanceWorld",
+        "getConquestBonus",
+        "getExpLevelSize",
+        "addExpLevel",
+        "addNPCQuestion",
+        "getNPCQuestion",
+        "getNPCTemplate",
+        "addNpcTemplate",
+        "removePlayer",
+        "unloadPerso",
+        "getPersoXpMin",
+        "getPersoXpMax",
+        "getTourmenteursXpMax",
+        "getBanditsXpMin",
+        "getBanditsXpMax",
+        "addSort",
+        "getSort",
+        "addObjTemplate",
+        "getObjTemplate",
+        "getEtherealWeapons",
+        "addMobTemplate",
+        "getMonstre",
+        "getMonstres",
+        "getStatOfAlign",
+        "addIOTemplate",
+        "getMountById",
+        "addMount",
+        "removeMount",
+        "addTutorial",
+        "getTutorial",
+        "getExpLevel",
+        "getIOTemplate",
+        "getMetier",
+        "addJob",
+        "addCraft",
+        "getCraft",
+        "addGladiatroolSpells",
+        "getAllGladiatroolSpells",
+        "getGladiatroolSpells",
+        "getGladiatroolSpellsFromPlayer",
+        "addQuickSet",
+        "deleteQuickSet",
+        "getAllQuickSets",
+        "getQuickSet",
+        "getPlayerQuickSet",
+        "addFullMorph",
+        "getFullMorph",
+        "getObjectByIngredientForJob",
+        "addItemSet",
+        "getItemSet",
+        "getItemSetNumber",
+        "getMapByPosInArray",
+        "getMapByPosInArrayPlayer",
+        "addGuild",
+        "guildNameIsUsed",
+        "guildEmblemIsUsed",
+        "getGuild",
+        "getGuildByName",
+        "getGuildXpMax",
+        "getZaapCellIdByMapId",
+        "getEncloCellIdByMapId",
+        "delDragoByID",
+        "removeGuild",
+        "unloadPerso",
+        "newObjet",
+        "getHdv",
+        "getNextObjectHdvId",
+        "setNextObjectHdvId",
+        "getNextLineHdvId",
+        "addHdvItem",
+        "removeHdvItem",
+        "addHdv",
+        "getMyItems",
+        "getObjTemplates",
+        "priestRequest",
+        "wedding",
+        "getAnimation",
+        "addAnimation",
+        "addHouse",
+        "getHouse",
+        "addCollector",
+        "getCollector",
+        "addTrunk",
+        "getTrunk",
+        "addMountPark",
+        "getMountPark",
+        "parseMPtoGuild",
+        "totalMPGuild",
+        "addChallenge",
+        "addPrisme",
+        "getPrisme",
+        "removePrisme",
+        "AllPrisme",
+        "PrismesGeoposition",
+        "showPrismes",
+        "getNextIDPrisme",
+        "addPets",
+        "getPets",
+        "getPets",
+        "addPetsEntry",
+        "getPetsEntry",
+        "removePetsEntry",
+        "getChallengeFromConditions",
+        "verifyClone",
+        "getRandomChallenge",
+        "getCollectorByMap",
+        "reloadPlayerGroup",
+        "reloadDrops",
+        "reloadEndFightActions",
+        "reloadNpcs",
+        "reloadHouses",
+        "reloadTrunks",
+        "reloadMaps",
+        "reloadMountParks",
+        "reloadMonsters",
+        "reloadQuests",
+        "reloadObjectsActions",
+        "reloadSpells",
+        "reloadItems",
+        "addSeller",
+        "getSeller",
+        "removeSeller",
+        "getPwrPerEffet",
+        "getOverPerEffet",
+        "getTauxObtentionIntermediaire",
+        "getMetierByMaging",
+        "getTempleByClasse",
+        "getMobgradeBetweenLvl",
+        "getArchiMobgradeBetweenLvl",
+        "getBossMobgradeBetweenLvl",
+        "getLvlMax",
+        "getObjectId",
+        "getCeil",
+        "getAction",
+        "getLevel",
+        "getCondition",
+        "getLocalPercent",
+        "copy"
+      ]
+    },
+    {
+      "class_name": "Drop",
+      "methods": [
+        "getObjectId",
+        "getCeil",
+        "getAction",
+        "getLevel",
+        "getCondition",
+        "getLocalPercent",
+        "copy"
+      ]
+    },
+    {
+      "class_name": "Couple",
+      "methods": []
+    },
+    {
+      "class_name": "ExpLevel",
+      "methods": []
+    }
+  ],
+  "org/starloco/locos/kernel/Main.java": [
+    {
+      "class_name": "Main",
+      "methods": [
+        "main",
+        "run",
+        "start",
+        "stop",
+        "setTitle",
+        "refreshTitle",
+        "clear"
+      ]
+    }
+  ],
+  "org/starloco/locos/kernel/Constant.java": [
+    {
+      "class_name": "Constant",
+      "methods": [
+        "getQuestByMobSkin",
+        "getSkinByHuntMob",
+        "getItemByHuntMob",
+        "getItemByMobSkin",
+        "getDocNameByBornePos",
+        "getClassStatueMap",
+        "getClassStatueCell",
+        "getStartMap",
+        "getStartCell",
+        "getStartSortsPlaces",
+        "getStartSorts",
+        "getReqPtsToBoostStatsByClass",
+        "onLevelUpSpells",
+        "getGlyphColor",
+        "getTrapsColor",
+        "getTrapsAnimation",
+        "getMountStats",
+        "getParchoTemplateByMountColor",
+        "getMountColorByParchoTemplate",
+        "getNearCellidUnused",
+        "isAValidConsumableItem",
+        "isTypeWeapon",
+        "isValidPlaceForItem",
+        "isPlaceDofus",
+        "tpCim",
+        "isTaverne",
+        "getLevelForChevalier",
+        "getStatsOfCandy",
+        "getStatsOfMascotte",
+        "getStringColorDragodinde",
+        "getGeneration",
+        "colorToEtable",
+        "getParchoByIdPets",
+        "getPetsByIdParcho",
+        "getDoplonDopeul",
+        "getIDdoplonByMapID",
+        "getStarAlea",
+        "getArmeSoin",
+        "getSectionByDopeuls",
+        "getCertificatByDopeuls",
+        "isCertificatDopeuls",
+        "getItemIdByMascotteId",
+        "isIncarnationWeapon",
+        "isTourmenteurWeapon",
+        "isBanditsWeapon",
+        "getSpecialSpellByClasse",
+        "isFlacGelee",
+        "isDoplon",
+        "isInMorphDonjon",
+        "getOppositeStats",
+        "isPanoIdClass",
+        "isTypeForMimibiote",
+        "isGladiatroolWeapon",
+        "isInGladiatorDonjon",
+        "getPalierByNewMap",
+        "getStatStringbyPalier",
+        "getClasseByMorphWeapon",
+        "getToniques3byclasse",
+        "getRandomGemmesSpritiuels",
+        "getPositionByItemType"
+      ]
+    }
+  ],
+  "org/starloco/locos/kernel/Reboot.java": [
+    {
+      "class_name": "Reboot",
+      "methods": [
+        "initialize",
+        "check",
+        "toStr"
+      ]
+    }
+  ],
+  "org/starloco/locos/kernel/Config.java": [
+    {
+      "class_name": "Config",
+      "methods": [
+        "getInstance",
+        "load",
+        "generateNewConfigFile",
+        "convertArrayStringToInt"
+      ]
+    }
+  ],
+  "org/starloco/locos/kernel/Logging.java": [
+    {
+      "class_name": "Logging",
+      "methods": [
+        "getInstance",
+        "initialize",
+        "stop",
+        "write",
+        "write",
+        "getName",
+        "getBuffer"
+      ]
+    },
+    {
+      "class_name": "Log",
+      "methods": [
+        "write",
+        "getName",
+        "getBuffer"
+      ]
+    }
+  ],
+  "org/starloco/locos/dynamic/Start.java": [
+    {
+      "class_name": "Start",
+      "methods": [
+        "run",
+        "run"
+      ]
+    },
+    {
+      "class_name": "verifyIsOnline",
+      "methods": [
+        "run"
+      ]
+    },
+    {
+      "class_name": "starting",
+      "methods": [
+        "run"
+      ]
+    }
+  ],
+  "org/starloco/locos/dynamic/FormuleOfficiel.java": [
+    {
+      "class_name": "FormuleOfficiel",
+      "methods": [
+        "getXp"
+      ]
+    }
+  ],
+  "org/starloco/locos/dynamic/Noel.java": [
+    {
+      "class_name": "Noel",
+      "methods": [
+        "getRandomObjectOne",
+        "getRandomObjectTwo",
+        "getRandomObjectTree",
+        "getRandomObjectFour",
+        "getRandomObjectFive",
+        "getRandomObjectDonjonOne",
+        "getRandomObjectDonjonTwo",
+        "getRandomObjectDonjonTree"
+      ]
+    }
+  ],
+  "org/starloco/locos/entity/Prism.java": [
+    {
+      "class_name": "Prism",
+      "methods": [
+        "parseAttack",
+        "parseDefense",
+        "attackerOfPrisme",
+        "defenderOfPrisme",
+        "getId",
+        "getAlignement",
+        "getLevel",
+        "setLevel",
+        "getMap",
+        "getCell",
+        "setCell",
+        "getInFight",
+        "setInFight",
+        "getFightId",
+        "setFightId",
+        "getTurnTime",
+        "getHonor",
+        "addHonor",
+        "getGrade",
+        "getConquestArea",
+        "setConquestArea",
+        "getFight",
+        "setFight",
+        "getStats",
+        "refreshStats",
+        "getX",
+        "getY",
+        "getSubArea",
+        "getArea",
+        "getGMPrisme"
+      ]
+    }
+  ],
+  "org/starloco/locos/entity/Collector.java": [
+    {
+      "class_name": "Collector",
+      "methods": [
+        "parseGM",
+        "parseToGuild",
+        "getCollectorByGuildId",
+        "getCollectorByMapId",
+        "countCollectorGuild",
+        "parseAttaque",
+        "parseDefense",
+        "parseAttaqueToGuild",
+        "parseDefenseToGuild",
+        "removeCollector",
+        "reloadTimer",
+        "getDate",
+        "getPoseur",
+        "setPoseur",
+        "getId",
+        "getMap",
+        "getCell",
+        "setCell",
+        "getGuildId",
+        "getN1",
+        "getN2",
+        "getInFight",
+        "setInFight",
+        "get_inFightID",
+        "set_inFightID",
+        "getKamas",
+        "setKamas",
+        "getXp",
+        "setXp",
+        "getExchange",
+        "setExchange",
+        "getTurnTimer",
+        "setTimeTurn",
+        "removeTimeTurn",
+        "addLogObjects",
+        "getLogObjects",
+        "addObjet",
+        "haveObjects",
+        "getPodsTotal",
+        "getMaxPod",
+        "removeObjet",
+        "delCollector",
+        "getItemCollectorList",
+        "parseItemCollector",
+        "removeFromCollector",
+        "addDefenseFight",
+        "delDefenseFight",
+        "clearDefenseFight",
+        "getDefenseFight",
+        "getDrops"
+      ]
+    }
+  ],
+  "org/starloco/locos/entity/pet/Pet.java": [
+    {
+      "class_name": "Pet",
+      "methods": [
+        "getTemplateId",
+        "getType",
+        "getGap",
+        "getStatsUp",
+        "getMax",
+        "getGain",
+        "getDeadTemplate",
+        "getEpo",
+        "getMonsters",
+        "getStatsMax",
+        "getNumbMonster",
+        "decompileStatsUpItem",
+        "canEat",
+        "statsIdByEat",
+        "generateNewtxtStatsForPets",
+        "getJet"
+      ]
+    }
+  ],
+  "org/starloco/locos/entity/pet/PetEntry.java": [
+    {
+      "class_name": "PetEntry",
+      "methods": [
+        "getObjectId",
+        "getTemplate",
+        "getLastEatDate",
+        "getQuaEat",
+        "getPdv",
+        "getCorpulence",
+        "getIsEupeoh",
+        "parseLastEatDate",
+        "parseCorpulence",
+        "getCurrentStatsPoids",
+        "getMaxStat",
+        "looseFight",
+        "eat",
+        "eatSouls",
+        "updatePets",
+        "resurrection",
+        "restoreLife",
+        "giveEpo"
+      ]
+    }
+  ],
+  "org/starloco/locos/entity/npc/Npc.java": [
+    {
+      "class_name": "Npc",
+      "methods": [
+        "getId",
+        "getCellid",
+        "setCellid",
+        "getOrientation",
+        "setOrientation",
+        "getTemplate",
+        "parse"
+      ]
+    }
+  ],
+  "org/starloco/locos/entity/npc/NpcTemplate.java": [
+    {
+      "class_name": "NpcTemplate",
+      "methods": [
+        "setInfos",
+        "getId",
+        "getGfxId",
+        "getScaleX",
+        "getScaleY",
+        "getSex",
+        "getColor1",
+        "getColor2",
+        "getColor3",
+        "getAccessories",
+        "getExtraClip",
+        "setExtraClip",
+        "getCustomArtWork",
+        "getPath",
+        "getQuest",
+        "setQuest",
+        "getInformations",
+        "getInitQuestionId",
+        "getItemVendorList",
+        "getAllItem",
+        "addItemVendor",
+        "removeItemVendor",
+        "haveItem",
+        "verifItemGet"
+      ]
+    }
+  ],
+  "org/starloco/locos/entity/npc/NpcMovable.java": [
+    {
+      "class_name": "NpcMovable",
+      "methods": [
+        "move",
+        "inverseOfPath",
+        "getPath",
+        "getDirByChar",
+        "moveAll"
+      ]
+    }
+  ],
+  "org/starloco/locos/entity/npc/NpcQuestion.java": [
+    {
+      "class_name": "NpcQuestion",
+      "methods": [
+        "getId",
+        "getAnwsers",
+        "getArgs",
+        "setArgs",
+        "conditionsReponse",
+        "parse",
+        "parseArgs"
+      ]
+    }
+  ],
+  "org/starloco/locos/entity/npc/NpcAnswer.java": [
+    {
+      "class_name": "NpcAnswer",
+      "methods": [
+        "getId",
+        "getActions",
+        "setActions",
+        "addAction",
+        "apply",
+        "isAnotherDialog",
+        "getQuest",
+        "setQuest"
+      ]
+    }
+  ],
+  "org/starloco/locos/entity/exchange/CraftSecure.java": [
+    {
+      "class_name": "CraftSecure",
+      "methods": [
+        "getNeeder",
+        "getMaxCase",
+        "setMaxCase",
+        "apply",
+        "giveObjects",
+        "cancel",
+        "setPayKamas",
+        "setPayItems",
+        "addItem",
+        "removeItem",
+        "send"
+      ]
+    }
+  ],
+  "org/starloco/locos/entity/exchange/PlayerExchange.java": [
+    {
+      "class_name": "PlayerExchange",
+      "methods": [
+        "isPodsOK",
+        "getKamas",
+        "toogleOk",
+        "setKamas",
+        "cancel",
+        "apply",
+        "giveObject",
+        "addItem",
+        "removeItem",
+        "getQuaItem",
+        "getKamas",
+        "toogleOK",
+        "setKamas",
+        "cancel",
+        "apply",
+        "addItem",
+        "removeItem",
+        "getQuaItem",
+        "clearItems",
+        "getCoupleInList",
+        "putAllGiveItem",
+        "getNpc",
+        "setNpc",
+        "toogleOK",
+        "setKamas",
+        "cancel",
+        "apply",
+        "addItem",
+        "removeItem",
+        "verifIfAlonePets",
+        "verifIfAloneParcho",
+        "clearNpcItems",
+        "getCoupleInList",
+        "getQuaItem",
+        "getNpc",
+        "setNpc",
+        "getKamas",
+        "toogleOK",
+        "setKamas",
+        "cancel",
+        "apply",
+        "addItem",
+        "removeItem",
+        "verification",
+        "clearNpcItems",
+        "getCoupleInList",
+        "getQuaItem",
+        "getNpc",
+        "setNpc"
+      ]
+    },
+    {
+      "class_name": "NpcExchange",
+      "methods": [
+        "getKamas",
+        "toogleOK",
+        "setKamas",
+        "cancel",
+        "apply",
+        "addItem",
+        "removeItem",
+        "getQuaItem",
+        "clearItems",
+        "getCoupleInList",
+        "putAllGiveItem",
+        "getNpc",
+        "setNpc"
+      ]
+    },
+    {
+      "class_name": "NpcExchangePets",
+      "methods": [
+        "toogleOK",
+        "setKamas",
+        "cancel",
+        "apply",
+        "addItem",
+        "removeItem",
+        "verifIfAlonePets",
+        "verifIfAloneParcho",
+        "clearNpcItems",
+        "getCoupleInList",
+        "getQuaItem",
+        "getNpc",
+        "setNpc"
+      ]
+    },
+    {
+      "class_name": "NpcRessurectPets",
+      "methods": [
+        "getKamas",
+        "toogleOK",
+        "setKamas",
+        "cancel",
+        "apply",
+        "addItem",
+        "removeItem",
+        "verification",
+        "clearNpcItems",
+        "getCoupleInList",
+        "getQuaItem",
+        "getNpc",
+        "setNpc"
+      ]
+    }
+  ],
+  "org/starloco/locos/entity/exchange/Exchange.java": [
+    {
+      "class_name": "Exchange",
+      "methods": [
+        "getCoupleInList",
+        "toogleOk",
+        "apply",
+        "cancel"
+      ]
+    }
+  ],
+  "org/starloco/locos/entity/monster/Monster.java": [
+    {
+      "class_name": "Monster",
+      "methods": [
+        "setInfos",
+        "getId",
+        "getGfxId",
+        "getAlign",
+        "getColors",
+        "getIa",
+        "getMinKamas",
+        "getMaxKamas",
+        "getGrades",
+        "addDrop",
+        "getDrops",
+        "isCapturable",
+        "getAggroDistance",
+        "getGradeByLevel",
+        "getRandomGrade",
+        "getGrade",
+        "getType",
+        "generateOrientation",
+        "setSubArea",
+        "changeAgro",
+        "removeAgro",
+        "haveMineur",
+        "getId",
+        "getCellId",
+        "setCellId",
+        "getOrientation",
+        "setOrientation",
+        "getAlignement",
+        "getStarBonus",
+        "getAggroDistance",
+        "isFix",
+        "setIsFix",
+        "getIsExtraGroup",
+        "getMobs",
+        "getMobGradeById",
+        "getCondition",
+        "setCondition",
+        "startCondTimer",
+        "run",
+        "stopConditionTimer",
+        "getObjects",
+        "parseGM",
+        "getCopy",
+        "refresh",
+        "getSize",
+        "getTemplate",
+        "getGrade",
+        "getLevel",
+        "getPdv",
+        "setPdv",
+        "getPdvMax",
+        "getInFightID",
+        "setInFightID",
+        "getInit",
+        "getPa",
+        "getPm",
+        "getBaseXp",
+        "getFightCell",
+        "setFightCell",
+        "getBuffs",
+        "getStats",
+        "getSpells",
+        "modifStatByInvocator"
+      ]
+    },
+    {
+      "class_name": "MobGroup",
+      "methods": [
+        "generateOrientation",
+        "setSubArea",
+        "changeAgro",
+        "removeAgro",
+        "haveMineur",
+        "getId",
+        "getCellId",
+        "setCellId",
+        "getOrientation",
+        "setOrientation",
+        "getAlignement",
+        "getStarBonus",
+        "getAggroDistance",
+        "isFix",
+        "setIsFix",
+        "getIsExtraGroup",
+        "getMobs",
+        "getMobGradeById",
+        "getCondition",
+        "setCondition",
+        "startCondTimer",
+        "run",
+        "stopConditionTimer",
+        "getObjects",
+        "parseGM"
+      ]
+    },
+    {
+      "class_name": "MobGrade",
+      "methods": [
+        "getCopy",
+        "refresh",
+        "getSize",
+        "getTemplate",
+        "getGrade",
+        "getLevel",
+        "getPdv",
+        "setPdv",
+        "getPdvMax",
+        "getInFightID",
+        "setInFightID",
+        "getInit",
+        "getPa",
+        "getPm",
+        "getBaseXp",
+        "getFightCell",
+        "setFightCell",
+        "getBuffs",
+        "getStats",
+        "getSpells",
+        "modifStatByInvocator"
+      ]
+    }
+  ],
+  "org/starloco/locos/entity/monster/boss/Bandit.java": [
+    {
+      "class_name": "Bandit",
+      "methods": [
+        "getBandits",
+        "run",
+        "pop",
+        "getMonsters",
+        "getMaps",
+        "getTime",
+        "setTime",
+        "setPop"
+      ]
+    }
+  ],
+  "org/starloco/locos/entity/monster/boss/MaitreCorbac.java": [
+    {
+      "class_name": "MaitreCorbac",
+      "methods": [
+        "repop",
+        "check"
+      ]
+    }
+  ],
+  "org/starloco/locos/entity/mount/Generation.java": [
+    {
+      "class_name": "Generation",
+      "methods": [
+        "getPods",
+        "getEnergy",
+        "getMaturity",
+        "getTimeGestation",
+        "getLearningRate"
+      ]
+    }
+  ],
+  "org/starloco/locos/entity/mount/Mount.java": [
+    {
+      "class_name": "Mount",
+      "methods": [
+        "update",
+        "get",
+        "checkCanKen",
+        "checkBaby",
+        "getId",
+        "setId",
+        "getColor",
+        "setColor",
+        "getSex",
+        "getSize",
+        "setSize",
+        "getName",
+        "setName",
+        "getLevel",
+        "setLevel",
+        "getExp",
+        "getOwner",
+        "setOwner",
+        "getMapId",
+        "setMapId",
+        "getCellId",
+        "setCellId",
+        "getOrientation",
+        "setOrientation",
+        "getFatigue",
+        "setFatigue",
+        "getEnergy",
+        "setEnergy",
+        "getReproduction",
+        "getAmour",
+        "getEndurance",
+        "getMaturity",
+        "getState",
+        "setState",
+        "getSavage",
+        "getAncestors",
+        "getFecundatedDate",
+        "setFecundatedDate",
+        "getCouple",
+        "setCouple",
+        "getStats",
+        "getObjects",
+        "getCapacitys",
+        "getStringColor",
+        "isMontable",
+        "isFecund",
+        "setCastrated",
+        "isCastrated",
+        "getActualPods",
+        "getMaxPods",
+        "addXp",
+        "addLvl",
+        "stateMale",
+        "stateFemale",
+        "setMaxEnergy",
+        "getMaxEnergy",
+        "setMaxMaturity",
+        "getMaxMaturity",
+        "aumFatige",
+        "aumEndurance",
+        "aumMaturity",
+        "aumAmor",
+        "aumState",
+        "aumEnergy",
+        "aumReproduction",
+        "resFatige",
+        "resAmor",
+        "resEndurance",
+        "resState",
+        "setToMax",
+        "getBonusFatigue",
+        "moveMounts",
+        "moveMountsAuto",
+        "addObject",
+        "removeObject",
+        "getSimilarObject",
+        "convertStatsToString",
+        "parse",
+        "parseToGM",
+        "parseToMountObjects",
+        "parseObjectsToString",
+        "parseCapacitysToString",
+        "parseExp"
+      ]
+    }
+  ],
+  "org/starloco/locos/job/JobConstant.java": [
+    {
+      "class_name": "JobConstant",
+      "methods": [
+        "getTotalCaseByJobLevel",
+        "getChanceForMaxCase",
+        "isJobAction",
+        "getObjectByJobSkill",
+        "getChanceByNbrCaseByLvl",
+        "isMageJob",
+        "actionMetier",
+        "getProtectorLvl",
+        "getPosActionsToJob",
+        "getDistCanne",
+        "getPoissonRare"
+      ]
+    }
+  ],
+  "org/starloco/locos/job/JobCraft.java": [
+    {
+      "class_name": "JobCraft",
+      "methods": [
+        "setAction",
+        "repeat",
+        "end"
+      ]
+    }
+  ],
+  "org/starloco/locos/job/JobAction.java": [
+    {
+      "class_name": "JobAction",
+      "methods": [
+        "getId",
+        "getMin",
+        "getMax",
+        "isCraft",
+        "getChance",
+        "getTime",
+        "getXpWin",
+        "getJobStat",
+        "getJobCraft",
+        "setJobCraft",
+        "startCraft",
+        "startAction",
+        "startAction",
+        "endAction",
+        "craft",
+        "craftPublicMode",
+        "addIngredient",
+        "sizeList",
+        "putLastCraftIngredients",
+        "resetCraft",
+        "modifIngredient",
+        "modifIngredient2",
+        "lastDigit",
+        "craftMaging",
+        "CalculPerteAndPuit",
+        "getStatBaseMax",
+        "getStatBaseMaxLegendaire",
+        "getStatBaseMin",
+        "WeithTotalBaseMin",
+        "WeithTotalBase",
+        "WeithTotalBaseLegendary",
+        "currentWeithStatsExo",
+        "currentTotalWeigthBase",
+        "getPwrPerEffet",
+        "getBaseMaxJet",
+        "getActualJet",
+        "viewActualStatsItem",
+        "viewBaseStatsItem"
+      ]
+    }
+  ],
+  "org/starloco/locos/job/Job.java": [
+    {
+      "class_name": "Job",
+      "methods": [
+        "getId",
+        "getSkills",
+        "isValidTool",
+        "getListBySkill",
+        "canCraft",
+        "isMaging",
+        "getBaseMaxJet",
+        "getActualJet",
+        "viewActualStatsItem",
+        "viewBaseStatsItem"
+      ]
+    }
+  ],
+  "org/starloco/locos/job/JobStat.java": [
+    {
+      "class_name": "JobStat",
+      "methods": [
+        "getId",
+        "getTemplate",
+        "get_lvl",
+        "getXp",
+        "getSlotsPublic",
+        "setSlotsPublic",
+        "getPosition",
+        "isPublicMode",
+        "flipPublicMode",
+        "getJobActionBySkill",
+        "startAction",
+        "endAction",
+        "addXp",
+        "getXpString",
+        "levelUp",
+        "parseJS",
+        "getOptBinValue",
+        "setOptBinValue",
+        "isValidMapAction"
+      ]
+    }
+  ],
+  "org/starloco/locos/job/maging/BreakingObject.java": [
+    {
+      "class_name": "BreakingObject",
+      "methods": [
+        "getObjects",
+        "setCount",
+        "getCount",
+        "setStop",
+        "isStop",
+        "addObject",
+        "removeObject",
+        "search"
+      ]
+    }
+  ],
+  "org/starloco/locos/job/maging/Rune.java": [
+    {
+      "class_name": "Rune",
+      "methods": [
+        "getRuneById",
+        "getRuneByCharacteristic",
+        "getRuneByCharacteristicAndByWeight",
+        "getId",
+        "setCharacteristic",
+        "getCharacteristic",
+        "getWeight",
+        "getBonus",
+        "getChance"
+      ]
+    }
+  ],
+  "org/starloco/locos/area/Area.java": [
+    {
+      "class_name": "Area",
+      "methods": [
+        "getId",
+        "getSuperArea",
+        "getAlignement",
+        "setAlignement",
+        "getPrismId",
+        "setPrismId",
+        "addSubArea",
+        "getSubAreas",
+        "getMaps"
+      ]
+    }
+  ],
+  "org/starloco/locos/area/SubArea.java": [
+    {
+      "class_name": "SubArea",
+      "methods": [
+        "getId",
+        "getArea",
+        "getAlignement",
+        "setAlignement",
+        "getPrismId",
+        "setPrismId",
+        "getConquistable",
+        "setConquistable",
+        "getMaps",
+        "addMap"
+      ]
+    }
+  ],
+  "org/starloco/locos/area/map/GameCase.java": [
+    {
+      "class_name": "GameCase",
+      "methods": [
+        "setWalkable",
+        "getId",
+        "isWalkable",
+        "isWalkable",
+        "isLoS",
+        "blockLoS",
+        "addPlayer",
+        "removePlayer",
+        "getPlayers",
+        "addFighter",
+        "removeFighter",
+        "getFighters",
+        "getFirstFighter",
+        "addOnCellStopAction",
+        "applyOnCellStopActions",
+        "getOnCellStopAction",
+        "getOnCellStop",
+        "setOnCellStop",
+        "clearOnCellAction",
+        "getObject",
+        "addDroppedItem",
+        "getDroppedItem",
+        "clearDroppedItem",
+        "canDoAction",
+        "startAction",
+        "getCraftsmenJobIdsByMap",
+        "finishAction",
+        "getLevel",
+        "getMovimiento",
+        "getActivo",
+        "getSlope"
+      ]
+    }
+  ],
+  "org/starloco/locos/area/map/CellCacheImpl.java": [
+    {
+      "class_name": "CellCacheImpl",
+      "methods": [
+        "isWalkable",
+        "getDirectWalkable",
+        "isOutOfMap",
+        "getHeight",
+        "blockLineOfSight",
+        "getX",
+        "getY",
+        "getCellId",
+        "getOrthCellID",
+        "getProjectionMapKey"
+      ]
+    }
+  ],
+  "org/starloco/locos/area/map/GameMap.java": [
+    {
+      "class_name": "GameMap",
+      "methods": [
+        "update",
+        "get",
+        "removeMountPark",
+        "getObjResist",
+        "getObjResist",
+        "setInfos",
+        "addMobExtra",
+        "setGs",
+        "getMobPossibles",
+        "setMobPossibles",
+        "getMaxSize",
+        "getMinSize",
+        "getFixSize",
+        "getId",
+        "getDate",
+        "getW",
+        "getH",
+        "getKey",
+        "getPlaces",
+        "setPlaces",
+        "getCases",
+        "setCases",
+        "getCase",
+        "removeCase",
+        "newFight",
+        "removeFight",
+        "getNbrFight",
+        "getFight",
+        "getFights",
+        "getMobGroups",
+        "removeNpcOrMobGroup",
+        "addNpc",
+        "getNpcs",
+        "getNpc",
+        "RemoveNpc",
+        "applyEndFightAction",
+        "hasEndFightAction",
+        "addEndFightAction",
+        "delEndFightAction",
+        "delAllEndFightAction",
+        "getX",
+        "getY",
+        "getSubArea",
+        "getMountPark",
+        "setMountPark",
+        "getMaxGroupNumb",
+        "getMaxTeam",
+        "containsForbiddenCellSpawn",
+        "getMapCopy",
+        "getMapCopyIdentic",
+        "addPlayer",
+        "getPlayers",
+        "sendFloorItems",
+        "delAllDropItem",
+        "getStoreCount",
+        "haveMobFix",
+        "isPossibleToPutMonster",
+        "loadExtraMonsterOnMap",
+        "loadMonsterOnMap",
+        "mute",
+        "isMute",
+        "isAggroByMob",
+        "spawnAfterTimeGroup",
+        "spawnAfterTimeGroupFix",
+        "setCellCache",
+        "spawnGroupGladiatrool",
+        "spawnGroup",
+        "respawnGroup",
+        "spawnGroupWith",
+        "spawnNewGroup",
+        "spawnGroupOnCommand",
+        "addStaticGroup",
+        "refreshSpawns",
+        "getGMsPackets",
+        "getFightersGMsPackets",
+        "getFighterGMPacket",
+        "getMobGroupGMsPackets",
+        "getPrismeGMPacket",
+        "getNpcsGMsPackets",
+        "getObjectsGDsPackets",
+        "startFightVersusMonstres",
+        "IsInDj",
+        "getFightID",
+        "startFightVersusProtectors",
+        "startFigthVersusDopeuls",
+        "startFightVersusPercepteur",
+        "startFightVersusPrisme",
+        "getRandomFreeCellId",
+        "getRandomNearFreeCellId",
+        "onMapMonsterDeplacement",
+        "checkCell",
+        "getObjects",
+        "getObjDurable",
+        "cellSideLeft",
+        "cellSideRight",
+        "cellSide",
+        "getGMOfMount",
+        "getGMOfMount",
+        "getPlayer",
+        "onPlayerArriveOnCell",
+        "send"
+      ]
+    },
+    {
+      "class_name": "RespawnGroup",
+      "methods": []
+    }
+  ],
+  "org/starloco/locos/area/map/labyrinth/Minotoror.java": [
+    {
+      "class_name": "Minotoror",
+      "methods": [
+        "initialize",
+        "demi",
+        "momi",
+        "initializeBoss",
+        "spawnDemi",
+        "spawnMomi",
+        "chooseRandomMap",
+        "ouvrirHaut",
+        "ouvrirBas",
+        "ouvrirGauche",
+        "ouvrirDroite",
+        "closeAll",
+        "openAll",
+        "openTimer",
+        "open",
+        "close",
+        "sendOpen",
+        "sendOpen",
+        "sendClose",
+        "sendClose",
+        "sendPacketMap",
+        "isValidMap"
+      ]
+    }
+  ],
+  "org/starloco/locos/area/map/labyrinth/Gladiatrool.java": [
+    {
+      "class_name": "Gladiatrool",
+      "methods": [
+        "initialize",
+        "respawn",
+        "initializeGladiatrool",
+        "spawnGroups",
+        "spawnGroupGladiatrool"
+      ]
+    }
+  ],
+  "org/starloco/locos/area/map/labyrinth/PigDragon.java": [
+    {
+      "class_name": "PigDragon",
+      "methods": [
+        "initialize",
+        "checkOutside",
+        "close",
+        "open",
+        "getLeftCell",
+        "getRightCell",
+        "getUpCell",
+        "getDownCell",
+        "open",
+        "close",
+        "sendOpen",
+        "sendOpen",
+        "sendClose",
+        "sendClose",
+        "initializeMap",
+        "randomCase",
+        "initializeExt",
+        "closeMap",
+        "sendPacketMap",
+        "returnCell",
+        "setOutside",
+        "setInside",
+        "isOutside",
+        "isInside"
+      ]
+    }
+  ],
+  "org/starloco/locos/area/map/entity/MountPark.java": [
+    {
+      "class_name": "MountPark",
+      "methods": [
+        "setData",
+        "setInfos",
+        "setDoor",
+        "getMountcell",
+        "setMountCell",
+        "setCellObject",
+        "setInfos",
+        "getOwner",
+        "setOwner",
+        "getSize",
+        "getGuild",
+        "setGuild",
+        "getMap",
+        "getCell",
+        "getPrice",
+        "setPrice",
+        "getPlaceOfSpawn",
+        "getMaxObject",
+        "getDoor",
+        "getCellOfObject",
+        "hasEtableFull",
+        "hasEnclosFull",
+        "addCellObject",
+        "parseStringCellObject",
+        "getCellAndObject",
+        "addObject",
+        "delObject",
+        "getObjDurab",
+        "getObject",
+        "addRaising",
+        "delRaising",
+        "getListOfRaising",
+        "getEtable",
+        "startMoveMounts",
+        "getStringObject",
+        "getStringObjDurab",
+        "parseRaisingToString",
+        "parseEtableToString"
+      ]
+    }
+  ],
+  "org/starloco/locos/area/map/entity/House.java": [
+    {
+      "class_name": "House",
+      "methods": [
+        "getHouseIdByCoord",
+        "load",
+        "open",
+        "buy",
+        "sell",
+        "closeCode",
+        "closeBuy",
+        "lockIt",
+        "parseHouseToGuild",
+        "alreadyHaveHouse",
+        "parseHG",
+        "houseOnGuild",
+        "leave",
+        "getHouseByPerso",
+        "removeHouseGuild",
+        "setGuildRightsWithParse",
+        "getId",
+        "getMapId",
+        "getCellId",
+        "getOwnerId",
+        "setOwnerId",
+        "getSale",
+        "setSale",
+        "getGuildId",
+        "setGuildId",
+        "getGuildRights",
+        "setGuildRights",
+        "getAccess",
+        "setAccess",
+        "getKey",
+        "setKey",
+        "getHouseMapId",
+        "getHouseCellId",
+        "enter",
+        "buyIt",
+        "sellIt",
+        "isHouse",
+        "lock",
+        "canDo",
+        "initRight",
+        "parseIntToRight"
+      ]
+    }
+  ],
+  "org/starloco/locos/area/map/entity/InteractiveObject.java": [
+    {
+      "class_name": "InteractiveObject",
+      "methods": [
+        "update",
+        "get",
+        "getActionIO",
+        "getSignIO",
+        "getKwakere",
+        "getId",
+        "getState",
+        "setState",
+        "isInteractive",
+        "setInteractive",
+        "getUseDuration",
+        "getUnknowValue",
+        "isWalkable",
+        "getTemplate",
+        "setTemplate",
+        "active",
+        "desactive",
+        "getId",
+        "isWalkable",
+        "getRespawnTime",
+        "getDuration",
+        "getUnk"
+      ]
+    },
+    {
+      "class_name": "InteractiveObjectTemplate",
+      "methods": [
+        "getId",
+        "isWalkable",
+        "getRespawnTime",
+        "getDuration",
+        "getUnk"
+      ]
+    }
+  ],
+  "org/starloco/locos/area/map/entity/InteractiveDoor.java": [
+    {
+      "class_name": "InteractiveDoor",
+      "methods": [
+        "stock",
+        "tryActivate",
+        "show",
+        "check",
+        "check",
+        "open",
+        "close",
+        "setState",
+        "setStateDoor",
+        "setStateCell",
+        "isValid",
+        "parseMGC"
+      ]
+    },
+    {
+      "class_name": "Condition",
+      "methods": [
+        "isValid",
+        "parseMGC"
+      ]
+    }
+  ],
+  "org/starloco/locos/area/map/entity/Tutorial.java": [
+    {
+      "class_name": "Tutorial",
+      "methods": [
+        "getId",
+        "getStart",
+        "getEnd",
+        "getReward"
+      ]
+    }
+  ],
+  "org/starloco/locos/area/map/entity/Animation.java": [
+    {
+      "class_name": "Animation",
+      "methods": [
+        "PrepareToGA",
+        "getId",
+        "getName",
+        "getArea",
+        "getAction",
+        "getSize",
+        "getanimationId"
+      ]
+    }
+  ],
+  "org/starloco/locos/area/map/entity/Trunk.java": [
+    {
+      "class_name": "Trunk",
+      "methods": [
+        "closeCode",
+        "getTrunkIdByCoord",
+        "lock",
+        "open",
+        "getTrunksByHouse",
+        "setObjects",
+        "getId",
+        "setId",
+        "getHouseId",
+        "setHouseId",
+        "getMapId",
+        "setMapId",
+        "getCellId",
+        "setCellId",
+        "getKey",
+        "setKey",
+        "getOwnerId",
+        "setOwnerId",
+        "getKamas",
+        "setKamas",
+        "getPlayer",
+        "setPlayer",
+        "getObject",
+        "setObject",
+        "Lock",
+        "enter",
+        "isTrunk",
+        "parseToTrunkPacket",
+        "addInTrunk",
+        "removeFromTrunk",
+        "getSimilarTrunkItem",
+        "parseTrunkObjetsToDB",
+        "moveTrunkToBank"
+      ]
+    }
+  ],
+  "org/starloco/locos/exchange/ExchangeHandler.java": [
+    {
+      "class_name": "ExchangeHandler",
+      "methods": [
+        "sessionCreated",
+        "messageReceived",
+        "messageSent",
+        "sessionClosed",
+        "exceptionCaught",
+        "ioBufferToString"
+      ]
+    }
+  ],
+  "org/starloco/locos/exchange/ExchangeClient.java": [
+    {
+      "class_name": "ExchangeClient",
+      "methods": [
+        "setIoSession",
+        "getIoSession",
+        "getConnectFuture",
+        "initialize",
+        "restart",
+        "stop",
+        "send",
+        "StringToIoBuffer"
+      ]
+    }
+  ],
+  "org/starloco/locos/exchange/ExchangePacketHandler.java": [
+    {
+      "class_name": "ExchangePacketHandler",
+      "methods": [
+        "parser"
+      ]
+    }
+  ],
+  "org/starloco/locos/exchange/transfer/DataQueue.java": [
+    {
+      "class_name": "DataQueue",
+      "methods": [
+        "count",
+        "getType",
+        "setValue",
+        "getValue"
+      ]
+    },
+    {
+      "class_name": "Queue",
+      "methods": [
+        "getType",
+        "setValue",
+        "getValue"
+      ]
+    }
+  ],
+  "org/starloco/locos/other/Guild.java": [
+    {
+      "class_name": "Guild",
+      "methods": [
+        "addMember",
+        "addNewMember",
+        "getId",
+        "getNbrPerco",
+        "setNbrPerco",
+        "getCapital",
+        "setCapital",
+        "getSpells",
+        "getStats",
+        "getDate",
+        "boostSpell",
+        "getStatsFight",
+        "getName",
+        "setName",
+        "getEmblem",
+        "getXp",
+        "getLvl",
+        "haveTenMembers",
+        "getSize",
+        "parseMembersToGM",
+        "getMembers",
+        "getGuildMembers",
+        "getMember",
+        "removeMember",
+        "addXp",
+        "levelUp",
+        "decompileSpell",
+        "decompileStats",
+        "compileSpell",
+        "compileStats",
+        "upgradeStats",
+        "getStats",
+        "parseCollectorToGuild",
+        "parseQuestionTaxCollector",
+        "getAlign",
+        "getGfx",
+        "getLvl",
+        "getName",
+        "getGuid",
+        "getRank",
+        "setRank",
+        "getGuild",
+        "parseRights",
+        "getRights",
+        "getXpGave",
+        "getPXpGive",
+        "getLastCo",
+        "setLastCo",
+        "getHoursFromLastCo",
+        "getPlayer",
+        "canDo",
+        "setAllRights",
+        "giveXpToGuild",
+        "initRight",
+        "parseIntToRight"
+      ]
+    },
+    {
+      "class_name": "GuildMember",
+      "methods": [
+        "getAlign",
+        "getGfx",
+        "getLvl",
+        "getName",
+        "getGuid",
+        "getRank",
+        "setRank",
+        "getGuild",
+        "parseRights",
+        "getRights",
+        "getXpGave",
+        "getPXpGive",
+        "getLastCo",
+        "setLastCo",
+        "getHoursFromLastCo",
+        "getPlayer",
+        "canDo",
+        "setAllRights",
+        "giveXpToGuild",
+        "initRight",
+        "parseIntToRight"
+      ]
+    }
+  ],
+  "org/starloco/locos/other/Dopeul.java": [
+    {
+      "class_name": "Dopeul",
+      "methods": [
+        "getDonjons",
+        "getReward",
+        "getDoplonByClasse",
+        "hasOneDoplon",
+        "hasQuaDoplon",
+        "removeObject",
+        "parseConditionTrousseau",
+        "generateStats",
+        "generateStatsTrousseau"
+      ]
+    }
+  ],
+  "org/starloco/locos/other/Loterie.java": [
+    {
+      "class_name": "Loterie",
+      "methods": [
+        "startLoterie",
+        "startLoteriePioute",
+        "getCadeau1",
+        "getCadeau2",
+        "getCadeauPioute",
+        "getCadeauBworker"
+      ]
+    }
+  ],
+  "org/starloco/locos/other/Action.java": [
+    {
+      "class_name": "Action",
+      "methods": [
+        "getDopeul",
+        "Couple",
+        "getId",
+        "setId",
+        "getArgs",
+        "setArgs",
+        "setCond",
+        "getMap",
+        "setMap",
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/command/ExecuteCommandPlayer.java": [
+    {
+      "class_name": "ExecuteCommandPlayer",
+      "methods": [
+        "analyse",
+        "getNameServerById",
+        "doParcho",
+        "doPrestige",
+        "removePoints",
+        "doTp",
+        "doAll",
+        "noAll",
+        "doStaff",
+        "doMaster",
+        "doGroupe",
+        "doDeblo",
+        "doHouse",
+        "doInfos",
+        "doBanque",
+        "doExo",
+        "doTeleportMaster",
+        "doSpellMax",
+        "jetMaxAItem",
+        "doJetMax",
+        "doVie",
+        "doIpDrop",
+        "doPass",
+        "doGiveItem",
+        "doKralaClose",
+        "doKralaOpen",
+        "doLevel",
+        "doDemon",
+        "doTransfer",
+        "doAnge",
+        "doNeutre",
+        "doFmCac",
+        "doBoost",
+        "doCommand"
+      ]
+    }
+  ],
+  "org/starloco/locos/command/PlayerCommand.java": [
+    {
+      "class_name": "PlayerCommand",
+      "methods": [
+        "getName",
+        "getType",
+        "getArgs",
+        "getPrice",
+        "isVip",
+        "getCondition",
+        "getDescription"
+      ]
+    }
+  ],
+  "org/starloco/locos/command/CommandAdmin.java": [
+    {
+      "class_name": "CommandAdmin",
+      "methods": [
+        "apply",
+        "command",
+        "getCellJail",
+        "returnClasse"
+      ]
+    }
+  ],
+  "org/starloco/locos/command/administration/AdminUser.java": [
+    {
+      "class_name": "AdminUser",
+      "methods": [
+        "getAccount",
+        "getPlayer",
+        "getClient",
+        "isTimerStart",
+        "setTimerStart",
+        "getTimer",
+        "setTimer",
+        "createTimer",
+        "actionPerformed",
+        "sendMessage",
+        "sendErrorMessage",
+        "sendSuccessMessage",
+        "adminCommandPacket",
+        "apply"
+      ]
+    }
+  ],
+  "org/starloco/locos/command/administration/Group.java": [
+    {
+      "class_name": "Group",
+      "methods": [
+        "getId",
+        "getName",
+        "isPlayer",
+        "getCommands",
+        "haveCommand",
+        "reload",
+        "getGroupeById"
+      ]
+    }
+  ],
+  "org/starloco/locos/command/administration/Command.java": [
+    {
+      "class_name": "Command",
+      "methods": [
+        "getId",
+        "getArguments",
+        "getCommandById",
+        "reload"
+      ]
+    }
+  ],
+  "org/starloco/locos/util/TimerWaiter.java": [
+    {
+      "class_name": "TimerWaiter",
+      "methods": [
+        "addNext",
+        "addNext",
+        "purge"
+      ]
+    }
+  ],
+  "org/starloco/locos/util/RandomStats.java": [
+    {
+      "class_name": "RandomStats",
+      "methods": [
+        "add",
+        "size",
+        "get"
+      ]
+    }
+  ],
+  "org/starloco/locos/util/NameGenerator.java": [
+    {
+      "class_name": "NameGenerator",
+      "methods": [
+        "changeFile",
+        "refresh",
+        "upper",
+        "containsConsFirst",
+        "containsVocFirst",
+        "allowCons",
+        "allowVocs",
+        "expectsVowel",
+        "expectsConsonant",
+        "hatesPreviousVowels",
+        "hatesPreviousConsonants",
+        "pureSyl",
+        "VowelFirst",
+        "consonantFirst",
+        "VowelLast",
+        "consonantLast",
+        "compose"
+      ]
+    }
+  ],
+  "org/starloco/locos/util/lang/AbstractLang.java": [
+    {
+      "class_name": "AbstractLang",
+      "methods": [
+        "get",
+        "initialize"
+      ]
+    }
+  ],
+  "org/starloco/locos/util/lang/type/English.java": [
+    {
+      "class_name": "English",
+      "methods": [
+        "getInstance",
+        "initialize"
+      ]
+    }
+  ],
+  "org/starloco/locos/util/lang/type/French.java": [
+    {
+      "class_name": "French",
+      "methods": [
+        "getInstance",
+        "initialize"
+      ]
+    }
+  ],
+  "org/starloco/locos/util/lang/type/Spanish.java": [
+    {
+      "class_name": "Spanish",
+      "methods": [
+        "getInstance",
+        "initialize"
+      ]
+    }
+  ]
+}

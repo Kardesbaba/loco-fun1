@@ -1,0 +1,23 @@
+java.sql.SQLDataException: Value '10' is outside of valid range for type java.lang.Byte
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:106)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:81)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:55)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:65)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:84)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getObject(ResultSetImpl.java:1412)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getByte(ResultSetImpl.java:744)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getByte(ResultSetImpl.java:750)
+	at org.starloco.locos.database.dynamics.data.RuneData.load(RuneData.java:22)
+	at org.starloco.locos.game.world.World.createWorld(World.java:528)
+	at org.starloco.locos.kernel.Main.start(Main.java:93)
+	at org.starloco.locos.kernel.Main.main(Main.java:78)
+Caused by: com.mysql.cj.exceptions.NumberOutOfRange: Value '10' is outside of valid range for type java.lang.Byte
+	at com.mysql.cj.result.ByteValueFactory.createFromBytes(ByteValueFactory.java:100)
+	at com.mysql.cj.result.ByteValueFactory.createFromBytes(ByteValueFactory.java:37)
+	at com.mysql.cj.protocol.a.MysqlTextValueDecoder.decodeByteArray(MysqlTextValueDecoder.java:151)
+	at com.mysql.cj.protocol.result.AbstractResultsetRow.decodeAndCreateReturnValue(AbstractResultsetRow.java:127)
+	at com.mysql.cj.protocol.result.AbstractResultsetRow.getValueFromBytes(AbstractResultsetRow.java:235)
+	at com.mysql.cj.protocol.a.result.TextBufferRow.getValue(TextBufferRow.java:122)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getObject(ResultSetImpl.java:1300)
+	... 6 more

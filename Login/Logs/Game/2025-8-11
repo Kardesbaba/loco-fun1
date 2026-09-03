@@ -1,0 +1,25 @@
+[17 : 46 : 28] : Starting logger..
+[17 : 46 : 28] : messageReceived de 127.0.0.1 : SK601;eratz;50000
+[17 : 46 : 28] : messageSent : SKK# -> 601
+[17 : 46 : 28] : messageReceived de 601 : SH127.0.0.1;5555
+[17 : 46 : 28] : messageSent : SHK# -> 601
+[17 : 46 : 28] : messageReceived de 601 : SS1
+[17 : 46 : 29] : messageSent : F?# -> 601
+[17 : 46 : 29] : messageReceived de 601 : F700
+[17 : 46 : 59] : messageSent : F?# -> 601
+[17 : 46 : 59] : messageReceived de 601 : F700
+[17 : 47 : 29] : messageSent : F?# -> 601
+[17 : 47 : 29] : messageReceived de 601 : F700
+[17 : 47 : 59] : messageSent : F?# -> 601
+[17 : 47 : 59] : messageReceived de 601 : F700
+[17 : 48 : 21] : messageSent : WA4;1.39.8# -> 601
+[17 : 48 : 29] : messageSent : F?# -> 601
+[17 : 48 : 29] : messageReceived de 601 : F699
+[17 : 48 : 59] : messageSent : F?# -> 601
+[17 : 48 : 59] : messageReceived de 601 : F699
+[17 : 49 : 29] : messageSent : F?# -> 601
+[17 : 49 : 29] : messageReceived de 601 : F699
+[17 : 49 : 59] : messageSent : F?# -> 601
+[17 : 49 : 59] : messageReceived de 601 : F699
+[17 : 50 : 19] : exceptionCaught : Connection reset -> 601
+[17 : 50 : 19] : sessionClosed -> 601
